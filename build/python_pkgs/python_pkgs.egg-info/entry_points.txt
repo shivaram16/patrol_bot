@@ -1,0 +1,3 @@
+[console_scripts]
+drone_image = python_pkgs.drone_image:main
+

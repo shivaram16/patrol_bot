@@ -1,0 +1,17 @@
+/home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/config/bot2_controller.yaml
+/home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/launch/bot2_control.launch.py
+/home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/ament_index/resource_index/package_run_dependencies/bot2_controllers
+/home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/ament_index/resource_index/parent_prefix_path/bot2_controllers
+/home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/environment/ament_prefix_path.sh
+/home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/environment/ament_prefix_path.dsv
+/home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/environment/path.sh
+/home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/environment/path.dsv
+/home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/local_setup.bash
+/home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/local_setup.sh
+/home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/local_setup.zsh
+/home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/local_setup.dsv
+/home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/package.dsv
+/home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/ament_index/resource_index/packages/bot2_controllers
+/home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/cmake/bot2_controllersConfig.cmake
+/home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/cmake/bot2_controllersConfig-version.cmake
+/home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/package.xml

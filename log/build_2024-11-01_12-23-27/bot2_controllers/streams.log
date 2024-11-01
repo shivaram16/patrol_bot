@@ -1,0 +1,24 @@
+[0.155s] Invoking command in '/home/shiva/ros2_playground/workspace2/build/bot2_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shiva/ros2_playground/workspace2/build/bot2_controllers -- -j8 -l8
+[0.537s] Invoked command in '/home/shiva/ros2_playground/workspace2/build/bot2_controllers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shiva/ros2_playground/workspace2/build/bot2_controllers -- -j8 -l8
+[0.805s] Invoking command in '/home/shiva/ros2_playground/workspace2/build/bot2_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shiva/ros2_playground/workspace2/build/bot2_controllers
+[0.837s] -- Install configuration: ""
+[0.837s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/config
+[0.837s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/config/bot2_controller.yaml
+[0.838s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/launch
+[0.838s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/launch/bot2_control.launch.py
+[0.838s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/ament_index/resource_index/package_run_dependencies/bot2_controllers
+[0.838s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/ament_index/resource_index/parent_prefix_path/bot2_controllers
+[0.838s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/environment/ament_prefix_path.sh
+[0.838s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/environment/ament_prefix_path.dsv
+[0.838s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/environment/path.sh
+[0.854s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/environment/path.dsv
+[0.854s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/local_setup.bash
+[0.854s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/local_setup.sh
+[0.854s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/local_setup.zsh
+[0.856s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/local_setup.dsv
+[0.856s] -- Installing: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/package.dsv
+[0.856s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/ament_index/resource_index/packages/bot2_controllers
+[0.856s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/cmake/bot2_controllersConfig.cmake
+[0.856s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/cmake/bot2_controllersConfig-version.cmake
+[0.856s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/package.xml
+[0.945s] Invoked command in '/home/shiva/ros2_playground/workspace2/build/bot2_controllers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shiva/ros2_playground/workspace2/build/bot2_controllers

@@ -1,0 +1,2 @@
+[0.154s] Invoking command in '/home/shiva/ros2_playground/workspace2/build/bot2_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shiva/ros2_playground/workspace2/build/bot2_controllers -- -j8 -l8
+[0.623s] Invoked command in '/home/shiva/ros2_playground/workspace2/build/bot2_controllers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shiva/ros2_playground/workspace2/build/bot2_controllers -- -j8 -l8

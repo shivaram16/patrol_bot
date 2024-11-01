@@ -1,0 +1,5 @@
+  File "/home/shiva/ros2_playground/workspace2/install/python_pkgs/lib/python3.10/site-packages/python_pkgs/drone_image.py", line 81
+    def
+       ^
+SyntaxError: invalid syntax
+

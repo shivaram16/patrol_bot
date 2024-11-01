@@ -1,0 +1,8 @@
+-- Install configuration: ""
+-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/meshes
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/shiva/ros2_playground/workspace2/src/descriptions_package/meshes/Component18.obj":
+  Permission denied.
+
+[0m

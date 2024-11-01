@@ -1,0 +1,50 @@
+[0.099s] Invoking command in '/home/shiva/ros2_playground/workspace2/build/descriptions_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shiva/ros2_playground/workspace2/build/descriptions_package -- -j8 -l8
+[0.692s] Invoked command in '/home/shiva/ros2_playground/workspace2/build/descriptions_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shiva/ros2_playground/workspace2/build/descriptions_package -- -j8 -l8
+[1.061s] Invoking command in '/home/shiva/ros2_playground/workspace2/build/descriptions_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shiva/ros2_playground/workspace2/build/descriptions_package
+[1.137s] -- Install configuration: ""
+[1.137s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/meshes
+[1.137s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/meshes/patrolbot_body_v2.OBJ
+[1.137s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/meshes/Component18_scaled.stl
+[1.137s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/meshes/patrolbot_body_scaled.stl
+[1.137s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/meshes/base_link.STL
+[1.137s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/meshes/wheel_left_link.STL
+[1.137s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/meshes/Component18.OBJ
+[1.137s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/urdf
+[1.137s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/urdf/bot2_ext_info.xacro
+[1.153s] -- Installing: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/urdf/bot2.urdf.xacro
+[1.170s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/urdf/bot2_control.xacro
+[1.175s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/launch
+[1.177s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/launch/gazebo.launch.py
+[1.177s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/launch/display.launch.py
+[1.185s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/rviz_configs
+[1.186s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/rviz_configs/display.rviz
+[1.187s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/models
+[1.187s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/models/models
+[1.187s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/models/models/ground_plane
+[1.187s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/models/models/ground_plane/model.config
+[1.188s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/models/models/ground_plane/model-1_4.sdf
+[1.188s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/models/models/ground_plane/model-1_2.sdf
+[1.188s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/models/models/ground_plane/model.sdf
+[1.189s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/models/models/ground_plane/model-1_3.sdf
+[1.190s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/models/models/sun
+[1.191s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/models/models/sun/model.config
+[1.193s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/models/models/sun/model-1_4.sdf
+[1.193s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/models/models/sun/model-1_2.sdf
+[1.193s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/models/models/sun/model.sdf
+[1.194s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/models/models/sun/model-1_3.sdf
+[1.195s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/ament_index/resource_index/package_run_dependencies/descriptions_package
+[1.195s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/ament_index/resource_index/parent_prefix_path/descriptions_package
+[1.195s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/environment/ament_prefix_path.sh
+[1.195s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/environment/ament_prefix_path.dsv
+[1.195s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/environment/path.sh
+[1.196s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/environment/path.dsv
+[1.196s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/local_setup.bash
+[1.197s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/local_setup.sh
+[1.197s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/local_setup.zsh
+[1.198s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/local_setup.dsv
+[1.198s] -- Installing: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/package.dsv
+[1.198s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/ament_index/resource_index/packages/descriptions_package
+[1.198s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/cmake/descriptions_packageConfig.cmake
+[1.199s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/cmake/descriptions_packageConfig-version.cmake
+[1.199s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/package.xml
+[1.199s] Invoked command in '/home/shiva/ros2_playground/workspace2/build/descriptions_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shiva/ros2_playground/workspace2/build/descriptions_package

@@ -1,0 +1,33 @@
+[1.567s] Invoking command in '/home/shiva/ros2_playground/workspace2/src/python_pkgs': PYTHONPATH=/home/shiva/ros2_playground/workspace2/build/python_pkgs/prefix_override:/home/shiva/ros2_playground/workspace2/install/python_pkgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_pkgs build --build-base /home/shiva/ros2_playground/workspace2/build/python_pkgs/build install --record /home/shiva/ros2_playground/workspace2/build/python_pkgs/install.log --single-version-externally-managed install_data
+[1.889s] running egg_info
+[1.890s] creating ../../build/python_pkgs/python_pkgs.egg-info
+[1.891s] writing ../../build/python_pkgs/python_pkgs.egg-info/PKG-INFO
+[1.891s] writing dependency_links to ../../build/python_pkgs/python_pkgs.egg-info/dependency_links.txt
+[1.892s] writing entry points to ../../build/python_pkgs/python_pkgs.egg-info/entry_points.txt
+[1.892s] writing requirements to ../../build/python_pkgs/python_pkgs.egg-info/requires.txt
+[1.892s] writing top-level names to ../../build/python_pkgs/python_pkgs.egg-info/top_level.txt
+[1.892s] writing manifest file '../../build/python_pkgs/python_pkgs.egg-info/SOURCES.txt'
+[1.894s] reading manifest file '../../build/python_pkgs/python_pkgs.egg-info/SOURCES.txt'
+[1.899s] writing manifest file '../../build/python_pkgs/python_pkgs.egg-info/SOURCES.txt'
+[1.900s] running build
+[1.900s] running build_py
+[1.900s] creating /home/shiva/ros2_playground/workspace2/build/python_pkgs/build
+[1.901s] creating /home/shiva/ros2_playground/workspace2/build/python_pkgs/build/lib
+[1.901s] creating /home/shiva/ros2_playground/workspace2/build/python_pkgs/build/lib/python_pkgs
+[1.901s] copying python_pkgs/__init__.py -> /home/shiva/ros2_playground/workspace2/build/python_pkgs/build/lib/python_pkgs
+[1.901s] running install
+[1.901s] running install_lib
+[1.907s] creating /home/shiva/ros2_playground/workspace2/install/python_pkgs/lib/python3.10/site-packages/python_pkgs
+[1.907s] copying /home/shiva/ros2_playground/workspace2/build/python_pkgs/build/lib/python_pkgs/__init__.py -> /home/shiva/ros2_playground/workspace2/install/python_pkgs/lib/python3.10/site-packages/python_pkgs
+[1.908s] byte-compiling /home/shiva/ros2_playground/workspace2/install/python_pkgs/lib/python3.10/site-packages/python_pkgs/__init__.py to __init__.cpython-310.pyc
+[1.908s] running install_data
+[1.909s] creating /home/shiva/ros2_playground/workspace2/install/python_pkgs/share/ament_index
+[1.910s] creating /home/shiva/ros2_playground/workspace2/install/python_pkgs/share/ament_index/resource_index
+[1.910s] creating /home/shiva/ros2_playground/workspace2/install/python_pkgs/share/ament_index/resource_index/packages
+[1.910s] copying resource/python_pkgs -> /home/shiva/ros2_playground/workspace2/install/python_pkgs/share/ament_index/resource_index/packages
+[1.910s] copying package.xml -> /home/shiva/ros2_playground/workspace2/install/python_pkgs/share/python_pkgs
+[1.910s] running install_egg_info
+[1.913s] Copying ../../build/python_pkgs/python_pkgs.egg-info to /home/shiva/ros2_playground/workspace2/install/python_pkgs/lib/python3.10/site-packages/python_pkgs-0.0.0-py3.10.egg-info
+[1.915s] running install_scripts
+[1.951s] writing list of installed files to '/home/shiva/ros2_playground/workspace2/build/python_pkgs/install.log'
+[1.982s] Invoked command in '/home/shiva/ros2_playground/workspace2/src/python_pkgs' returned '0': PYTHONPATH=/home/shiva/ros2_playground/workspace2/build/python_pkgs/prefix_override:/home/shiva/ros2_playground/workspace2/install/python_pkgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_pkgs build --build-base /home/shiva/ros2_playground/workspace2/build/python_pkgs/build install --record /home/shiva/ros2_playground/workspace2/build/python_pkgs/install.log --single-version-externally-managed install_data

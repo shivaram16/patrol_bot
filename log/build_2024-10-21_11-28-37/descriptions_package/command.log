@@ -1,0 +1,2 @@
+Invoking command in '/home/shiva/ros2_playground/workspace2/build/descriptions_package': /usr/bin/cmake --build /home/shiva/ros2_playground/workspace2/build/descriptions_package -- -j8 -l8
+Invoked command in '/home/shiva/ros2_playground/workspace2/build/descriptions_package' returned '2': /usr/bin/cmake --build /home/shiva/ros2_playground/workspace2/build/descriptions_package -- -j8 -l8

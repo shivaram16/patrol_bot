@@ -1,0 +1,24 @@
+[1.728s] Invoking command in '/home/shiva/ros2_playground/workspace2/src/python_pkgs': PYTHONPATH=/home/shiva/ros2_playground/workspace2/build/python_pkgs/prefix_override:/home/shiva/ros2_playground/workspace2/install/python_pkgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_pkgs build --build-base /home/shiva/ros2_playground/workspace2/build/python_pkgs/build install --record /home/shiva/ros2_playground/workspace2/build/python_pkgs/install.log --single-version-externally-managed install_data
+[2.215s] running egg_info
+[2.235s] writing ../../build/python_pkgs/python_pkgs.egg-info/PKG-INFO
+[2.235s] writing dependency_links to ../../build/python_pkgs/python_pkgs.egg-info/dependency_links.txt
+[2.255s] writing entry points to ../../build/python_pkgs/python_pkgs.egg-info/entry_points.txt
+[2.255s] writing requirements to ../../build/python_pkgs/python_pkgs.egg-info/requires.txt
+[2.255s] writing top-level names to ../../build/python_pkgs/python_pkgs.egg-info/top_level.txt
+[2.284s] reading manifest file '../../build/python_pkgs/python_pkgs.egg-info/SOURCES.txt'
+[2.294s] writing manifest file '../../build/python_pkgs/python_pkgs.egg-info/SOURCES.txt'
+[2.309s] running build
+[2.311s] running build_py
+[2.311s] copying python_pkgs/drone_image.py -> /home/shiva/ros2_playground/workspace2/build/python_pkgs/build/lib/python_pkgs
+[2.311s] running install
+[2.311s] running install_lib
+[2.323s] copying /home/shiva/ros2_playground/workspace2/build/python_pkgs/build/lib/python_pkgs/drone_image.py -> /home/shiva/ros2_playground/workspace2/install/python_pkgs/lib/python3.10/site-packages/python_pkgs
+[2.328s] byte-compiling /home/shiva/ros2_playground/workspace2/install/python_pkgs/lib/python3.10/site-packages/python_pkgs/drone_image.py to drone_image.cpython-310.pyc
+[2.339s] running install_data
+[2.340s] running install_egg_info
+[2.347s] removing '/home/shiva/ros2_playground/workspace2/install/python_pkgs/lib/python3.10/site-packages/python_pkgs-0.0.0-py3.10.egg-info' (and everything under it)
+[2.355s] Copying ../../build/python_pkgs/python_pkgs.egg-info to /home/shiva/ros2_playground/workspace2/install/python_pkgs/lib/python3.10/site-packages/python_pkgs-0.0.0-py3.10.egg-info
+[2.375s] running install_scripts
+[2.461s] Installing drone_image script to /home/shiva/ros2_playground/workspace2/install/python_pkgs/lib/python_pkgs
+[2.464s] writing list of installed files to '/home/shiva/ros2_playground/workspace2/build/python_pkgs/install.log'
+[2.509s] Invoked command in '/home/shiva/ros2_playground/workspace2/src/python_pkgs' returned '0': PYTHONPATH=/home/shiva/ros2_playground/workspace2/build/python_pkgs/prefix_override:/home/shiva/ros2_playground/workspace2/install/python_pkgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_pkgs build --build-base /home/shiva/ros2_playground/workspace2/build/python_pkgs/build install --record /home/shiva/ros2_playground/workspace2/build/python_pkgs/install.log --single-version-externally-managed install_data

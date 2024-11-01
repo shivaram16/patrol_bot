@@ -1,0 +1,33 @@
+[0.065s] Invoking command in '/home/shiva/ros2_playground/workspace2/build/descriptions_package': /usr/bin/cmake --build /home/shiva/ros2_playground/workspace2/build/descriptions_package -- -j8 -l8
+[0.188s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.855s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.915s] Error parsing '/home/shiva/ros2_playground/workspace2/src/descriptions_package/package.xml':
+[0.980s] Traceback (most recent call last):
+[0.980s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.980s]     main()
+[0.980s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.980s]     raise e
+[0.980s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.980s]     package = parse_package_string(
+[0.980s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 719, in parse_package_string
+[0.981s]     export_node = _get_optional_node(root, 'export', filename)
+[0.981s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 807, in _get_optional_node
+[0.981s]     raise InvalidPackage('The manifest must not contain more than one "%s" tags' % tagname, filename)
+[0.981s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/shiva/ros2_playground/workspace2/src/descriptions_package/package.xml':
+[0.981s] The manifest must not contain more than one "export" tags
+[0.995s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.999s]   execute_process(/usr/bin/python3
+[0.999s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.999s]   /home/shiva/ros2_playground/workspace2/src/descriptions_package/package.xml
+[0.999s]   /home/shiva/ros2_playground/workspace2/build/descriptions_package/ament_cmake_core/package.cmake)
+[0.999s]   returned error code 1
+[0.999s] Call Stack (most recent call first):
+[0.999s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.999s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.003s]   CMakeLists.txt:28 (ament_lint_auto_find_test_dependencies)
+[1.003s] 
+[1.003s] [0m
+[1.006s] -- Configuring incomplete, errors occurred!
+[1.006s] See also "/home/shiva/ros2_playground/workspace2/build/descriptions_package/CMakeFiles/CMakeOutput.log".
+[1.010s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[1.014s] Invoked command in '/home/shiva/ros2_playground/workspace2/build/descriptions_package' returned '2': /usr/bin/cmake --build /home/shiva/ros2_playground/workspace2/build/descriptions_package -- -j8 -l8

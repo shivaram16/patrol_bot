@@ -1,0 +1,92 @@
+[0.000000] (-) TimerEvent: {}
+[0.001596] (python_pkgs) JobQueued: {'identifier': 'python_pkgs', 'dependencies': OrderedDict()}
+[0.002058] (python_pkgs) JobStarted: {'identifier': 'python_pkgs'}
+[0.105172] (-) TimerEvent: {}
+[0.247428] (-) TimerEvent: {}
+[0.351030] (-) TimerEvent: {}
+[0.463655] (-) TimerEvent: {}
+[0.581332] (-) TimerEvent: {}
+[0.686538] (-) TimerEvent: {}
+[0.795515] (-) TimerEvent: {}
+[0.896418] (-) TimerEvent: {}
+[1.000041] (-) TimerEvent: {}
+[1.115092] (-) TimerEvent: {}
+[1.236732] (-) TimerEvent: {}
+[1.342439] (-) TimerEvent: {}
+[1.444459] (-) TimerEvent: {}
+[1.551575] (-) TimerEvent: {}
+[1.653508] (-) TimerEvent: {}
+[1.766931] (-) TimerEvent: {}
+[1.871029] (-) TimerEvent: {}
+[1.988152] (-) TimerEvent: {}
+[2.103862] (-) TimerEvent: {}
+[2.223954] (-) TimerEvent: {}
+[2.325309] (-) TimerEvent: {}
+[2.427932] (-) TimerEvent: {}
+[2.531428] (-) TimerEvent: {}
+[2.638160] (-) TimerEvent: {}
+[2.744850] (-) TimerEvent: {}
+[2.902921] (-) TimerEvent: {}
+[3.025690] (-) TimerEvent: {}
+[3.139847] (-) TimerEvent: {}
+[3.256260] (-) TimerEvent: {}
+[3.389697] (-) TimerEvent: {}
+[3.499413] (-) TimerEvent: {}
+[3.603140] (-) TimerEvent: {}
+[3.725036] (-) TimerEvent: {}
+[3.827090] (-) TimerEvent: {}
+[3.952365] (-) TimerEvent: {}
+[4.061638] (-) TimerEvent: {}
+[4.174421] (-) TimerEvent: {}
+[4.281014] (-) TimerEvent: {}
+[4.445500] (-) TimerEvent: {}
+[4.555669] (-) TimerEvent: {}
+[4.661874] (-) TimerEvent: {}
+[4.763317] (-) TimerEvent: {}
+[4.866278] (-) TimerEvent: {}
+[4.980528] (-) TimerEvent: {}
+[5.092769] (-) TimerEvent: {}
+[5.220740] (python_pkgs) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/python_pkgs', 'build', '--build-base', '/home/shiva/ros2_playground/workspace2/build/python_pkgs/build', 'install', '--record', '/home/shiva/ros2_playground/workspace2/build/python_pkgs/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/shiva/ros2_playground/workspace2/src/python_pkgs', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'shiva', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/shiva', 'OLDPWD': '/home/shiva', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2895', 'SYSTEMD_EXEC_PID': '3221', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3672', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'shiva', 'JOURNAL_STREAM': '8:13017', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shiva', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/shivaram:@/tmp/.ICE-unix/3036,unix/shivaram:/tmp/.ICE-unix/3036', 'INVOCATION_ID': '34281de67b434dd3aac23a9343741013', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CH30U2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:98a9d645-0c13-406c-8e0f-d6b795907567', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shiva/ros2_playground/workspace2/build/python_pkgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shiva/ros2_playground/workspace2/build/python_pkgs/prefix_override:/home/shiva/ros2_playground/workspace2/install/python_pkgs/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[5.279362] (-) TimerEvent: {}
+[5.388459] (-) TimerEvent: {}
+[5.506029] (-) TimerEvent: {}
+[5.630815] (-) TimerEvent: {}
+[5.737450] (-) TimerEvent: {}
+[5.853197] (-) TimerEvent: {}
+[5.976906] (-) TimerEvent: {}
+[6.087245] (-) TimerEvent: {}
+[6.196290] (-) TimerEvent: {}
+[6.309973] (-) TimerEvent: {}
+[6.411171] (-) TimerEvent: {}
+[6.514586] (-) TimerEvent: {}
+[6.571380] (python_pkgs) StdoutLine: {'line': b'running egg_info\n'}
+[6.586368] (python_pkgs) StdoutLine: {'line': b'writing ../../build/python_pkgs/python_pkgs.egg-info/PKG-INFO\n'}
+[6.586581] (python_pkgs) StdoutLine: {'line': b'writing dependency_links to ../../build/python_pkgs/python_pkgs.egg-info/dependency_links.txt\n'}
+[6.620520] (python_pkgs) StdoutLine: {'line': b'writing entry points to ../../build/python_pkgs/python_pkgs.egg-info/entry_points.txt\n'}
+[6.624156] (-) TimerEvent: {}
+[6.624380] (python_pkgs) StdoutLine: {'line': b'writing requirements to ../../build/python_pkgs/python_pkgs.egg-info/requires.txt\n'}
+[6.648518] (python_pkgs) StdoutLine: {'line': b'writing top-level names to ../../build/python_pkgs/python_pkgs.egg-info/top_level.txt\n'}
+[6.655858] (python_pkgs) StdoutLine: {'line': b"reading manifest file '../../build/python_pkgs/python_pkgs.egg-info/SOURCES.txt'\n"}
+[6.690043] (python_pkgs) StdoutLine: {'line': b"writing manifest file '../../build/python_pkgs/python_pkgs.egg-info/SOURCES.txt'\n"}
+[6.690308] (python_pkgs) StdoutLine: {'line': b'running build\n'}
+[6.690441] (python_pkgs) StdoutLine: {'line': b'running build_py\n'}
+[6.710286] (python_pkgs) StdoutLine: {'line': b'copying python_pkgs/drone_image.py -> /home/shiva/ros2_playground/workspace2/build/python_pkgs/build/lib/python_pkgs\n'}
+[6.710506] (python_pkgs) StdoutLine: {'line': b'running install\n'}
+[6.710604] (python_pkgs) StdoutLine: {'line': b'running install_lib\n'}
+[6.710682] (python_pkgs) StdoutLine: {'line': b'copying /home/shiva/ros2_playground/workspace2/build/python_pkgs/build/lib/python_pkgs/drone_image.py -> /home/shiva/ros2_playground/workspace2/install/python_pkgs/lib/python3.10/site-packages/python_pkgs\n'}
+[6.739474] (python_pkgs) StdoutLine: {'line': b'byte-compiling /home/shiva/ros2_playground/workspace2/install/python_pkgs/lib/python3.10/site-packages/python_pkgs/drone_image.py to drone_image.cpython-310.pyc\n'}
+[6.739670] (-) TimerEvent: {}
+[6.777106] (python_pkgs) StdoutLine: {'line': b'running install_data\n'}
+[6.782850] (python_pkgs) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.782970] (python_pkgs) StdoutLine: {'line': b"removing '/home/shiva/ros2_playground/workspace2/install/python_pkgs/lib/python3.10/site-packages/python_pkgs-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.795634] (python_pkgs) StdoutLine: {'line': b'Copying ../../build/python_pkgs/python_pkgs.egg-info to /home/shiva/ros2_playground/workspace2/install/python_pkgs/lib/python3.10/site-packages/python_pkgs-0.0.0-py3.10.egg-info\n'}
+[6.797916] (python_pkgs) StdoutLine: {'line': b'running install_scripts\n'}
+[6.841198] (-) TimerEvent: {}
+[6.872145] (python_pkgs) StdoutLine: {'line': b'Installing drone_image script to /home/shiva/ros2_playground/workspace2/install/python_pkgs/lib/python_pkgs\n'}
+[6.879519] (python_pkgs) StdoutLine: {'line': b"writing list of installed files to '/home/shiva/ros2_playground/workspace2/build/python_pkgs/install.log'\n"}
+[6.958525] (python_pkgs) CommandEnded: {'returncode': 0}
+[6.978793] (-) TimerEvent: {}
+[7.092513] (-) TimerEvent: {}
+[7.216256] (python_pkgs) JobEnded: {'identifier': 'python_pkgs', 'rc': 0}
+[7.233530] (-) TimerEvent: {}
+[7.233672] (-) EventReactorShutdown: {}

@@ -1,0 +1,54 @@
+[0.000000] (-) TimerEvent: {}
+[0.000656] (descriptions_package) JobQueued: {'identifier': 'descriptions_package', 'dependencies': OrderedDict()}
+[0.001053] (python_pkgs) JobQueued: {'identifier': 'python_pkgs', 'dependencies': OrderedDict()}
+[0.001121] (descriptions_package) JobStarted: {'identifier': 'descriptions_package'}
+[0.008621] (python_pkgs) JobStarted: {'identifier': 'python_pkgs'}
+[0.060859] (descriptions_package) JobProgress: {'identifier': 'descriptions_package', 'progress': 'cmake'}
+[0.062593] (descriptions_package) JobProgress: {'identifier': 'descriptions_package', 'progress': 'build'}
+[0.064055] (descriptions_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shiva/ros2_playground/workspace2/build/descriptions_package', '--', '-j8', '-l8'], 'cwd': '/home/shiva/ros2_playground/workspace2/build/descriptions_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'shiva'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shiva'), ('OLDPWD', '/home/shiva'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2910'), ('SYSTEMD_EXEC_PID', '3243'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3665'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shiva'), ('JOURNAL_STREAM', '8:14831'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shiva'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shivaram:@/tmp/.ICE-unix/3035,unix/shivaram:/tmp/.ICE-unix/3035'), ('INVOCATION_ID', '5439e8a10bfe4563ad48a1f057b465a9'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.X3EBW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9ade5cba-b104-49b5-9a14-52f9b9643dee'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shiva/ros2_playground/workspace2/build/descriptions_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.099632] (-) TimerEvent: {}
+[0.188680] (descriptions_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.203099] (-) TimerEvent: {}
+[0.305512] (-) TimerEvent: {}
+[0.408858] (-) TimerEvent: {}
+[0.513817] (-) TimerEvent: {}
+[0.618245] (-) TimerEvent: {}
+[0.720872] (-) TimerEvent: {}
+[0.832211] (-) TimerEvent: {}
+[0.855893] (descriptions_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.916381] (descriptions_package) StderrLine: {'line': b"Error parsing '/home/shiva/ros2_playground/workspace2/src/descriptions_package/package.xml':\n"}
+[0.932903] (-) TimerEvent: {}
+[0.980574] (descriptions_package) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.980847] (descriptions_package) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[0.980955] (descriptions_package) StderrLine: {'line': b'    main()\n'}
+[0.981020] (descriptions_package) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[0.981083] (descriptions_package) StderrLine: {'line': b'    raise e\n'}
+[0.981141] (descriptions_package) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[0.981447] (descriptions_package) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[0.981498] (descriptions_package) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 719, in parse_package_string\n'}
+[0.982043] (descriptions_package) StderrLine: {'line': b"    export_node = _get_optional_node(root, 'export', filename)\n"}
+[0.982135] (descriptions_package) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 807, in _get_optional_node\n'}
+[0.982296] (descriptions_package) StderrLine: {'line': b'    raise InvalidPackage(\'The manifest must not contain more than one "%s" tags\' % tagname, filename)\n'}
+[0.982345] (descriptions_package) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/shiva/ros2_playground/workspace2/src/descriptions_package/package.xml':\n"}
+[0.982387] (descriptions_package) StderrLine: {'line': b'The manifest must not contain more than one "export" tags\n'}
+[0.995796] (descriptions_package) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[0.999736] (descriptions_package) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.999891] (descriptions_package) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[0.999949] (descriptions_package) StderrLine: {'line': b'  /home/shiva/ros2_playground/workspace2/src/descriptions_package/package.xml\n'}
+[0.999993] (descriptions_package) StderrLine: {'line': b'  /home/shiva/ros2_playground/workspace2/build/descriptions_package/ament_cmake_core/package.cmake)\n'}
+[1.000033] (descriptions_package) StderrLine: {'line': b'  returned error code 1\n'}
+[1.000080] (descriptions_package) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.000122] (descriptions_package) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[1.000164] (descriptions_package) StderrLine: {'line': b'  /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[1.000203] (descriptions_package) StderrLine: {'line': b'  CMakeLists.txt:28 (ament_lint_auto_find_test_dependencies)\n'}
+[1.004085] (descriptions_package) StderrLine: {'line': b'\n'}
+[1.004143] (descriptions_package) StderrLine: {'line': b'\x1b[0m\n'}
+[1.007412] (descriptions_package) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.007512] (descriptions_package) StdoutLine: {'line': b'See also "/home/shiva/ros2_playground/workspace2/build/descriptions_package/CMakeFiles/CMakeOutput.log".\n'}
+[1.011012] (descriptions_package) StderrLine: {'line': b'gmake: *** [Makefile:226: cmake_check_build_system] Error 1\n'}
+[1.013921] (descriptions_package) CommandEnded: {'returncode': 2}
+[1.015707] (descriptions_package) JobEnded: {'identifier': 'descriptions_package', 'rc': 2}
+[1.033136] (-) TimerEvent: {}
+[1.144242] (-) TimerEvent: {}
+[1.148344] (python_pkgs) JobEnded: {'identifier': 'python_pkgs', 'rc': 'SIGINT'}
+[1.170320] (-) EventReactorShutdown: {}

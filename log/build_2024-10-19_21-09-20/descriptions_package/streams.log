@@ -1,0 +1,27 @@
+[0.110s] Invoking command in '/home/shiva/ros2_playground/workspace2/build/descriptions_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shiva/ros2_playground/workspace2/build/descriptions_package -- -j8 -l8
+[0.396s] Invoked command in '/home/shiva/ros2_playground/workspace2/build/descriptions_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shiva/ros2_playground/workspace2/build/descriptions_package -- -j8 -l8
+[0.474s] Invoking command in '/home/shiva/ros2_playground/workspace2/build/descriptions_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shiva/ros2_playground/workspace2/build/descriptions_package
+[0.481s] -- Install configuration: ""
+[0.481s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/meshes
+[0.481s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/meshes/patrolbot_body_v2.OBJ
+[0.481s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/meshes/base_link.STL
+[0.482s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/meshes/wheel_left_link.STL
+[0.482s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/meshes/Component18.OBJ
+[0.482s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/urdf
+[0.483s] -- Installing: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/urdf/bot2.urdf.xacro
+[0.483s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/ament_index/resource_index/package_run_dependencies/descriptions_package
+[0.483s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/ament_index/resource_index/parent_prefix_path/descriptions_package
+[0.483s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/environment/ament_prefix_path.sh
+[0.483s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/environment/ament_prefix_path.dsv
+[0.483s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/environment/path.sh
+[0.483s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/environment/path.dsv
+[0.484s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/local_setup.bash
+[0.484s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/local_setup.sh
+[0.484s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/local_setup.zsh
+[0.484s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/local_setup.dsv
+[0.484s] -- Installing: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/package.dsv
+[0.484s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/ament_index/resource_index/packages/descriptions_package
+[0.484s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/cmake/descriptions_packageConfig.cmake
+[0.484s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/cmake/descriptions_packageConfig-version.cmake
+[0.484s] -- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/package.xml
+[0.486s] Invoked command in '/home/shiva/ros2_playground/workspace2/build/descriptions_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shiva/ros2_playground/workspace2/build/descriptions_package

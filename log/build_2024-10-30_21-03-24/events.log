@@ -1,0 +1,323 @@
+[0.000000] (-) TimerEvent: {}
+[0.031340] (bot2_controllers) JobQueued: {'identifier': 'bot2_controllers', 'dependencies': OrderedDict()}
+[0.034953] (descriptions_package) JobQueued: {'identifier': 'descriptions_package', 'dependencies': OrderedDict()}
+[0.035046] (python_pkgs) JobQueued: {'identifier': 'python_pkgs', 'dependencies': OrderedDict()}
+[0.035075] (bot2_controllers) JobStarted: {'identifier': 'bot2_controllers'}
+[0.106943] (-) TimerEvent: {}
+[0.218206] (-) TimerEvent: {}
+[0.351893] (descriptions_package) JobStarted: {'identifier': 'descriptions_package'}
+[0.366663] (-) TimerEvent: {}
+[0.408007] (python_pkgs) JobStarted: {'identifier': 'python_pkgs'}
+[0.475643] (-) TimerEvent: {}
+[0.608891] (bot2_controllers) JobProgress: {'identifier': 'bot2_controllers', 'progress': 'cmake'}
+[0.608980] (-) TimerEvent: {}
+[0.680939] (bot2_controllers) JobProgress: {'identifier': 'bot2_controllers', 'progress': 'build'}
+[0.681034] (bot2_controllers) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shiva/ros2_playground/workspace2/build/bot2_controllers', '--', '-j8', '-l8'], 'cwd': '/home/shiva/ros2_playground/workspace2/build/bot2_controllers', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'shiva'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shiva'), ('OLDPWD', '/home/shiva/ros2_playground'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2927'), ('SYSTEMD_EXEC_PID', '3265'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3671'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shiva'), ('JOURNAL_STREAM', '8:15056'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shiva'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/shiva/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shivaram:@/tmp/.ICE-unix/3059,unix/shivaram:/tmp/.ICE-unix/3059'), ('INVOCATION_ID', 'd7e7e6fbc1504edab4388bed985f8f5c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Q7XXW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a0193315-43bd-4fdc-bcc9-b2944468bfbb'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shiva/ros2_playground/workspace2/build/bot2_controllers'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.714586] (-) TimerEvent: {}
+[0.870885] (-) TimerEvent: {}
+[0.886755] (descriptions_package) JobProgress: {'identifier': 'descriptions_package', 'progress': 'cmake'}
+[1.033509] (descriptions_package) JobProgress: {'identifier': 'descriptions_package', 'progress': 'build'}
+[1.033639] (-) TimerEvent: {}
+[1.036002] (descriptions_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shiva/ros2_playground/workspace2/build/descriptions_package', '--', '-j8', '-l8'], 'cwd': '/home/shiva/ros2_playground/workspace2/build/descriptions_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'shiva'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shiva'), ('OLDPWD', '/home/shiva/ros2_playground'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2927'), ('SYSTEMD_EXEC_PID', '3265'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3671'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shiva'), ('JOURNAL_STREAM', '8:15056'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shiva'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/shiva/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shivaram:@/tmp/.ICE-unix/3059,unix/shivaram:/tmp/.ICE-unix/3059'), ('INVOCATION_ID', 'd7e7e6fbc1504edab4388bed985f8f5c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Q7XXW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a0193315-43bd-4fdc-bcc9-b2944468bfbb'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shiva/ros2_playground/workspace2/build/descriptions_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.139981] (-) TimerEvent: {}
+[1.247175] (-) TimerEvent: {}
+[1.359024] (-) TimerEvent: {}
+[1.461193] (-) TimerEvent: {}
+[1.565982] (-) TimerEvent: {}
+[1.671324] (-) TimerEvent: {}
+[1.813252] (-) TimerEvent: {}
+[1.925208] (-) TimerEvent: {}
+[2.031001] (-) TimerEvent: {}
+[2.147097] (-) TimerEvent: {}
+[2.257928] (-) TimerEvent: {}
+[2.368449] (-) TimerEvent: {}
+[2.488504] (-) TimerEvent: {}
+[2.600571] (-) TimerEvent: {}
+[2.727735] (-) TimerEvent: {}
+[2.838235] (-) TimerEvent: {}
+[2.955292] (-) TimerEvent: {}
+[3.063427] (-) TimerEvent: {}
+[3.174897] (-) TimerEvent: {}
+[3.286442] (-) TimerEvent: {}
+[3.398479] (-) TimerEvent: {}
+[3.527382] (-) TimerEvent: {}
+[3.582297] (bot2_controllers) CommandEnded: {'returncode': 0}
+[3.612418] (descriptions_package) CommandEnded: {'returncode': 0}
+[3.628701] (-) TimerEvent: {}
+[3.741803] (-) TimerEvent: {}
+[3.846432] (-) TimerEvent: {}
+[3.975467] (-) TimerEvent: {}
+[4.026485] (bot2_controllers) JobProgress: {'identifier': 'bot2_controllers', 'progress': 'install'}
+[4.078826] (-) TimerEvent: {}
+[4.187584] (bot2_controllers) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shiva/ros2_playground/workspace2/build/bot2_controllers'], 'cwd': '/home/shiva/ros2_playground/workspace2/build/bot2_controllers', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'shiva'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shiva'), ('OLDPWD', '/home/shiva/ros2_playground'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2927'), ('SYSTEMD_EXEC_PID', '3265'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3671'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shiva'), ('JOURNAL_STREAM', '8:15056'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shiva'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/shiva/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shivaram:@/tmp/.ICE-unix/3059,unix/shivaram:/tmp/.ICE-unix/3059'), ('INVOCATION_ID', 'd7e7e6fbc1504edab4388bed985f8f5c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Q7XXW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a0193315-43bd-4fdc-bcc9-b2944468bfbb'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shiva/ros2_playground/workspace2/build/bot2_controllers'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.244900] (-) TimerEvent: {}
+[4.245507] (descriptions_package) JobProgress: {'identifier': 'descriptions_package', 'progress': 'install'}
+[4.247958] (descriptions_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shiva/ros2_playground/workspace2/build/descriptions_package'], 'cwd': '/home/shiva/ros2_playground/workspace2/build/descriptions_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'shiva'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shiva'), ('OLDPWD', '/home/shiva/ros2_playground'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2927'), ('SYSTEMD_EXEC_PID', '3265'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3671'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shiva'), ('JOURNAL_STREAM', '8:15056'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shiva'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/shiva/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shivaram:@/tmp/.ICE-unix/3059,unix/shivaram:/tmp/.ICE-unix/3059'), ('INVOCATION_ID', 'd7e7e6fbc1504edab4388bed985f8f5c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Q7XXW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a0193315-43bd-4fdc-bcc9-b2944468bfbb'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shiva/ros2_playground/workspace2/build/descriptions_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.311180] (bot2_controllers) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.339449] (descriptions_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.339740] (bot2_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/config\n'}
+[4.343093] (-) TimerEvent: {}
+[4.345772] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/meshes\n'}
+[4.345880] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/meshes/rearleftwheel.STL\n'}
+[4.345952] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/meshes/rearrightwheel.STL\n'}
+[4.346013] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/meshes/base_link.STL\n'}
+[4.346070] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/meshes/frontrightwheel.STL\n'}
+[4.346123] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/meshes/frontleftwheel.STL\n'}
+[4.351082] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/urdf\n'}
+[4.351181] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/urdf/bot2_ext_info.xacro\n'}
+[4.351282] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/urdf/bot2.urdf.xacro\n'}
+[4.351344] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/urdf/bot2_control.xacro\n'}
+[4.351398] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/launch\n'}
+[4.351453] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/launch/gazebo.launch.py\n'}
+[4.351537] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/launch/display.launch.py\n'}
+[4.351601] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/rviz_configs\n'}
+[4.351672] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/rviz_configs/display.rviz\n'}
+[4.351740] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/models\n'}
+[4.351796] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/models/models\n'}
+[4.351846] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/models/models/ground_plane\n'}
+[4.353680] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/models/models/ground_plane/model.config\n'}
+[4.353798] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/models/models/ground_plane/model-1_4.sdf\n'}
+[4.353870] (bot2_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/config/bot2_controller.yaml\n'}
+[4.353945] (bot2_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/launch\n'}
+[4.354069] (bot2_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/launch/bot2_control.launch.py\n'}
+[4.354132] (bot2_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/ament_index/resource_index/package_run_dependencies/bot2_controllers\n'}
+[4.354199] (bot2_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/ament_index/resource_index/parent_prefix_path/bot2_controllers\n'}
+[4.354261] (bot2_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/environment/ament_prefix_path.sh\n'}
+[4.354314] (bot2_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/environment/ament_prefix_path.dsv\n'}
+[4.354366] (bot2_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/environment/path.sh\n'}
+[4.354418] (bot2_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/environment/path.dsv\n'}
+[4.354469] (bot2_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/local_setup.bash\n'}
+[4.354520] (bot2_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/local_setup.sh\n'}
+[4.354583] (bot2_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/local_setup.zsh\n'}
+[4.354635] (bot2_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/local_setup.dsv\n'}
+[4.354684] (bot2_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/package.dsv\n'}
+[4.354734] (bot2_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/ament_index/resource_index/packages/bot2_controllers\n'}
+[4.354784] (bot2_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/cmake/bot2_controllersConfig.cmake\n'}
+[4.354832] (bot2_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/cmake/bot2_controllersConfig-version.cmake\n'}
+[4.354881] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/models/models/ground_plane/model-1_2.sdf\n'}
+[4.357154] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/models/models/ground_plane/model.sdf\n'}
+[4.357261] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/models/models/ground_plane/model-1_3.sdf\n'}
+[4.357326] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/models/models/sun\n'}
+[4.357395] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/models/models/sun/model.config\n'}
+[4.387019] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/models/models/sun/model-1_4.sdf\n'}
+[4.389876] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/models/models/sun/model-1_2.sdf\n'}
+[4.390014] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/models/models/sun/model.sdf\n'}
+[4.390175] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/models/models/sun/model-1_3.sdf\n'}
+[4.390273] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/ament_index/resource_index/package_run_dependencies/descriptions_package\n'}
+[4.390360] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/ament_index/resource_index/parent_prefix_path/descriptions_package\n'}
+[4.390420] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/environment/ament_prefix_path.sh\n'}
+[4.390475] (bot2_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/bot2_controllers/share/bot2_controllers/package.xml\n'}
+[4.390543] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/environment/ament_prefix_path.dsv\n'}
+[4.390609] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/environment/path.sh\n'}
+[4.390696] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/environment/path.dsv\n'}
+[4.390753] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/local_setup.bash\n'}
+[4.390808] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/local_setup.sh\n'}
+[4.390862] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/local_setup.zsh\n'}
+[4.390921] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/local_setup.dsv\n'}
+[4.390974] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/package.dsv\n'}
+[4.391025] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/ament_index/resource_index/packages/descriptions_package\n'}
+[4.391090] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/cmake/descriptions_packageConfig.cmake\n'}
+[4.391193] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/cmake/descriptions_packageConfig-version.cmake\n'}
+[4.391280] (descriptions_package) StdoutLine: {'line': b'-- Up-to-date: /home/shiva/ros2_playground/workspace2/install/descriptions_package/share/descriptions_package/package.xml\n'}
+[4.408826] (descriptions_package) CommandEnded: {'returncode': 0}
+[4.447333] (-) TimerEvent: {}
+[4.558128] (-) TimerEvent: {}
+[4.659271] (-) TimerEvent: {}
+[4.771013] (-) TimerEvent: {}
+[4.884805] (-) TimerEvent: {}
+[4.993924] (-) TimerEvent: {}
+[5.099270] (-) TimerEvent: {}
+[5.208442] (-) TimerEvent: {}
+[5.312291] (-) TimerEvent: {}
+[5.394164] (bot2_controllers) CommandEnded: {'returncode': 0}
+[5.424158] (-) TimerEvent: {}
+[5.531952] (-) TimerEvent: {}
+[5.635716] (-) TimerEvent: {}
+[5.736767] (-) TimerEvent: {}
+[5.837678] (-) TimerEvent: {}
+[5.957857] (-) TimerEvent: {}
+[5.983124] (descriptions_package) JobEnded: {'identifier': 'descriptions_package', 'rc': 0}
+[6.058744] (-) TimerEvent: {}
+[6.188244] (-) TimerEvent: {}
+[6.307585] (-) TimerEvent: {}
+[6.370134] (bot2_controllers) JobEnded: {'identifier': 'bot2_controllers', 'rc': 0}
+[6.412687] (-) TimerEvent: {}
+[6.513513] (-) TimerEvent: {}
+[6.633605] (-) TimerEvent: {}
+[6.734741] (-) TimerEvent: {}
+[6.841280] (-) TimerEvent: {}
+[6.947180] (-) TimerEvent: {}
+[7.064331] (-) TimerEvent: {}
+[7.171357] (-) TimerEvent: {}
+[7.279423] (-) TimerEvent: {}
+[7.385979] (-) TimerEvent: {}
+[7.491826] (-) TimerEvent: {}
+[7.596998] (-) TimerEvent: {}
+[7.702157] (-) TimerEvent: {}
+[7.806980] (-) TimerEvent: {}
+[7.930059] (-) TimerEvent: {}
+[8.042137] (-) TimerEvent: {}
+[8.162677] (-) TimerEvent: {}
+[8.330577] (-) TimerEvent: {}
+[8.437248] (-) TimerEvent: {}
+[8.550865] (-) TimerEvent: {}
+[8.665763] (-) TimerEvent: {}
+[8.775389] (-) TimerEvent: {}
+[8.894080] (-) TimerEvent: {}
+[9.002968] (-) TimerEvent: {}
+[9.106101] (-) TimerEvent: {}
+[9.209911] (-) TimerEvent: {}
+[9.336557] (-) TimerEvent: {}
+[9.449676] (-) TimerEvent: {}
+[9.556041] (-) TimerEvent: {}
+[9.672964] (-) TimerEvent: {}
+[9.784595] (-) TimerEvent: {}
+[9.896789] (-) TimerEvent: {}
+[9.999159] (-) TimerEvent: {}
+[10.102302] (-) TimerEvent: {}
+[10.207878] (-) TimerEvent: {}
+[10.310928] (-) TimerEvent: {}
+[10.419047] (-) TimerEvent: {}
+[10.529939] (-) TimerEvent: {}
+[10.630806] (-) TimerEvent: {}
+[10.748120] (-) TimerEvent: {}
+[10.870670] (-) TimerEvent: {}
+[10.983837] (-) TimerEvent: {}
+[11.089649] (-) TimerEvent: {}
+[11.196315] (-) TimerEvent: {}
+[11.309270] (-) TimerEvent: {}
+[11.416897] (-) TimerEvent: {}
+[11.526534] (-) TimerEvent: {}
+[11.643035] (-) TimerEvent: {}
+[11.749687] (-) TimerEvent: {}
+[11.858130] (-) TimerEvent: {}
+[11.969039] (-) TimerEvent: {}
+[12.074121] (-) TimerEvent: {}
+[12.184714] (-) TimerEvent: {}
+[12.305188] (-) TimerEvent: {}
+[12.428774] (-) TimerEvent: {}
+[12.535272] (-) TimerEvent: {}
+[12.645173] (-) TimerEvent: {}
+[12.759405] (-) TimerEvent: {}
+[12.884850] (-) TimerEvent: {}
+[13.016369] (-) TimerEvent: {}
+[13.122616] (-) TimerEvent: {}
+[13.228218] (-) TimerEvent: {}
+[13.339595] (-) TimerEvent: {}
+[13.484153] (-) TimerEvent: {}
+[13.587447] (-) TimerEvent: {}
+[13.695752] (-) TimerEvent: {}
+[13.798013] (-) TimerEvent: {}
+[13.922810] (-) TimerEvent: {}
+[14.043290] (-) TimerEvent: {}
+[14.153268] (-) TimerEvent: {}
+[14.269180] (-) TimerEvent: {}
+[14.372463] (-) TimerEvent: {}
+[14.481031] (-) TimerEvent: {}
+[14.596941] (-) TimerEvent: {}
+[14.709749] (-) TimerEvent: {}
+[14.822397] (-) TimerEvent: {}
+[14.941978] (-) TimerEvent: {}
+[15.048041] (-) TimerEvent: {}
+[15.153678] (-) TimerEvent: {}
+[15.264127] (-) TimerEvent: {}
+[15.370062] (-) TimerEvent: {}
+[15.475483] (-) TimerEvent: {}
+[15.587442] (-) TimerEvent: {}
+[15.699314] (-) TimerEvent: {}
+[15.817087] (-) TimerEvent: {}
+[15.926408] (-) TimerEvent: {}
+[16.052327] (-) TimerEvent: {}
+[16.159083] (-) TimerEvent: {}
+[16.266305] (-) TimerEvent: {}
+[16.370693] (-) TimerEvent: {}
+[16.489668] (-) TimerEvent: {}
+[16.601937] (-) TimerEvent: {}
+[16.710703] (-) TimerEvent: {}
+[16.819159] (-) TimerEvent: {}
+[16.946934] (-) TimerEvent: {}
+[17.053309] (-) TimerEvent: {}
+[17.168401] (-) TimerEvent: {}
+[17.291089] (-) TimerEvent: {}
+[17.405903] (-) TimerEvent: {}
+[17.514574] (-) TimerEvent: {}
+[17.617010] (-) TimerEvent: {}
+[17.722451] (-) TimerEvent: {}
+[17.835211] (-) TimerEvent: {}
+[17.943217] (-) TimerEvent: {}
+[18.050778] (-) TimerEvent: {}
+[18.167191] (-) TimerEvent: {}
+[18.269722] (-) TimerEvent: {}
+[18.375443] (-) TimerEvent: {}
+[18.487635] (-) TimerEvent: {}
+[18.591058] (-) TimerEvent: {}
+[18.713569] (-) TimerEvent: {}
+[18.820369] (-) TimerEvent: {}
+[18.936177] (-) TimerEvent: {}
+[19.042037] (-) TimerEvent: {}
+[19.146448] (-) TimerEvent: {}
+[19.252271] (-) TimerEvent: {}
+[19.361154] (-) TimerEvent: {}
+[19.427951] (python_pkgs) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/python_pkgs', 'build', '--build-base', '/home/shiva/ros2_playground/workspace2/build/python_pkgs/build', 'install', '--record', '/home/shiva/ros2_playground/workspace2/build/python_pkgs/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/shiva/ros2_playground/workspace2/src/python_pkgs', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'shiva', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/shiva', 'OLDPWD': '/home/shiva/ros2_playground', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2927', 'SYSTEMD_EXEC_PID': '3265', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3671', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'shiva', 'JOURNAL_STREAM': '8:15056', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shiva', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/shiva/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/shivaram:@/tmp/.ICE-unix/3059,unix/shivaram:/tmp/.ICE-unix/3059', 'INVOCATION_ID': 'd7e7e6fbc1504edab4388bed985f8f5c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Q7XXW2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:a0193315-43bd-4fdc-bcc9-b2944468bfbb', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shiva/ros2_playground/workspace2/build/python_pkgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shiva/ros2_playground/workspace2/build/python_pkgs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shiva/ros2_playground/workspace2/install/python_pkgs/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[19.464982] (-) TimerEvent: {}
+[19.577923] (-) TimerEvent: {}
+[19.687643] (-) TimerEvent: {}
+[19.795544] (-) TimerEvent: {}
+[19.902777] (-) TimerEvent: {}
+[20.008014] (-) TimerEvent: {}
+[20.109357] (-) TimerEvent: {}
+[20.215096] (-) TimerEvent: {}
+[20.324401] (-) TimerEvent: {}
+[20.434128] (-) TimerEvent: {}
+[20.559188] (-) TimerEvent: {}
+[20.671248] (-) TimerEvent: {}
+[20.791957] (-) TimerEvent: {}
+[20.893960] (-) TimerEvent: {}
+[21.008820] (-) TimerEvent: {}
+[21.116257] (-) TimerEvent: {}
+[21.225998] (-) TimerEvent: {}
+[21.330475] (-) TimerEvent: {}
+[21.390273] (python_pkgs) StdoutLine: {'line': b'running egg_info\n'}
+[21.406153] (python_pkgs) StdoutLine: {'line': b'writing ../../build/python_pkgs/python_pkgs.egg-info/PKG-INFO\n'}
+[21.432790] (-) TimerEvent: {}
+[21.452409] (python_pkgs) StdoutLine: {'line': b'writing dependency_links to ../../build/python_pkgs/python_pkgs.egg-info/dependency_links.txt\n'}
+[21.460369] (python_pkgs) StdoutLine: {'line': b'writing entry points to ../../build/python_pkgs/python_pkgs.egg-info/entry_points.txt\n'}
+[21.482736] (python_pkgs) StdoutLine: {'line': b'writing requirements to ../../build/python_pkgs/python_pkgs.egg-info/requires.txt\n'}
+[21.504154] (python_pkgs) StdoutLine: {'line': b'writing top-level names to ../../build/python_pkgs/python_pkgs.egg-info/top_level.txt\n'}
+[21.539090] (-) TimerEvent: {}
+[21.539218] (python_pkgs) StdoutLine: {'line': b"reading manifest file '../../build/python_pkgs/python_pkgs.egg-info/SOURCES.txt'\n"}
+[21.580900] (python_pkgs) StdoutLine: {'line': b"writing manifest file '../../build/python_pkgs/python_pkgs.egg-info/SOURCES.txt'\n"}
+[21.602972] (python_pkgs) StdoutLine: {'line': b'running build\n'}
+[21.605614] (python_pkgs) StdoutLine: {'line': b'running build_py\n'}
+[21.605738] (python_pkgs) StdoutLine: {'line': b'running install\n'}
+[21.605804] (python_pkgs) StdoutLine: {'line': b'running install_lib\n'}
+[21.609682] (python_pkgs) StdoutLine: {'line': b'running install_data\n'}
+[21.609841] (python_pkgs) StdoutLine: {'line': b'running install_egg_info\n'}
+[21.643083] (python_pkgs) StdoutLine: {'line': b"removing '/home/shiva/ros2_playground/workspace2/install/python_pkgs/lib/python3.10/site-packages/python_pkgs-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[21.643310] (-) TimerEvent: {}
+[21.643445] (python_pkgs) StdoutLine: {'line': b'Copying ../../build/python_pkgs/python_pkgs.egg-info to /home/shiva/ros2_playground/workspace2/install/python_pkgs/lib/python3.10/site-packages/python_pkgs-0.0.0-py3.10.egg-info\n'}
+[21.667154] (python_pkgs) StdoutLine: {'line': b'running install_scripts\n'}
+[21.747240] (-) TimerEvent: {}
+[21.836482] (python_pkgs) StdoutLine: {'line': b'Installing drone_image script to /home/shiva/ros2_playground/workspace2/install/python_pkgs/lib/python_pkgs\n'}
+[21.857019] (-) TimerEvent: {}
+[21.965600] (-) TimerEvent: {}
+[22.073422] (-) TimerEvent: {}
+[22.148136] (python_pkgs) StdoutLine: {'line': b"writing list of installed files to '/home/shiva/ros2_playground/workspace2/build/python_pkgs/install.log'\n"}
+[22.176318] (-) TimerEvent: {}
+[22.281406] (-) TimerEvent: {}
+[22.337834] (python_pkgs) CommandEnded: {'returncode': 0}
+[22.390320] (-) TimerEvent: {}
+[22.512943] (-) TimerEvent: {}
+[22.617726] (-) TimerEvent: {}
+[22.740826] (-) TimerEvent: {}
+[22.860127] (-) TimerEvent: {}
+[22.966737] (-) TimerEvent: {}
+[23.072799] (-) TimerEvent: {}
+[23.190304] (-) TimerEvent: {}
+[23.293798] (-) TimerEvent: {}
+[23.398495] (-) TimerEvent: {}
+[23.508098] (-) TimerEvent: {}
+[23.612872] (-) TimerEvent: {}
+[23.699271] (python_pkgs) JobEnded: {'identifier': 'python_pkgs', 'rc': 0}
+[23.727341] (-) TimerEvent: {}
+[23.727509] (-) EventReactorShutdown: {}

@@ -1,0 +1,29 @@
+[0.650s] Invoking command in '/home/shiva/ros2_playground/workspace2/build/urdf_test_1': /usr/bin/cmake /home/shiva/ros2_playground/workspace2/src/urdf_test_1 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/shiva/ros2_playground/workspace2/install/urdf_test_1
+[0.698s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.698s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.698s]   CMake.
+[0.698s] 
+[0.698s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.698s]   CMake that the project does not need compatibility with older versions.
+[0.698s] 
+[0.698s] [0m
+[0.731s] [31mCMake Error at CMakeLists.txt:5 (find_package):
+[0.731s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.731s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.731s]   CMake did not find one.
+[0.731s] 
+[0.731s]   Could not find a package configuration file provided by "catkin" with any
+[0.731s]   of the following names:
+[0.731s] 
+[0.731s]     catkinConfig.cmake
+[0.731s]     catkin-config.cmake
+[0.731s] 
+[0.731s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.731s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.731s]   provides a separate development package or SDK, be sure it has been
+[0.731s]   installed.
+[0.732s] 
+[0.733s] [0m
+[0.733s] -- Configuring incomplete, errors occurred!
+[0.733s] See also "/home/shiva/ros2_playground/workspace2/build/urdf_test_1/CMakeFiles/CMakeOutput.log".
+[0.751s] Invoked command in '/home/shiva/ros2_playground/workspace2/build/urdf_test_1' returned '1': /usr/bin/cmake /home/shiva/ros2_playground/workspace2/src/urdf_test_1 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/shiva/ros2_playground/workspace2/install/urdf_test_1
