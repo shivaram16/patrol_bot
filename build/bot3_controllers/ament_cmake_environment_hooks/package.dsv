@@ -1,0 +1,4 @@
+source;share/bot3_controllers/local_setup.bash
+source;share/bot3_controllers/local_setup.dsv
+source;share/bot3_controllers/local_setup.sh
+source;share/bot3_controllers/local_setup.zsh

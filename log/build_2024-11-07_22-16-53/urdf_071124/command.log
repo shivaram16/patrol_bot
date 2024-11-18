@@ -1,0 +1,2 @@
+Invoking command in '/home/shiva/ros2_playground/workspace3/build/urdf_071124': /usr/bin/cmake /home/shiva/ros2_playground/workspace3/src/urdf_071124 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/shiva/ros2_playground/workspace3/install/urdf_071124
+Invoked command in '/home/shiva/ros2_playground/workspace3/build/urdf_071124' returned '1': /usr/bin/cmake /home/shiva/ros2_playground/workspace3/src/urdf_071124 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/shiva/ros2_playground/workspace3/install/urdf_071124

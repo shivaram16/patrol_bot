@@ -1,0 +1,65 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100
+    use_sim_time: true
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    simple_velocity_controller:
+      type: velocity_controllers/JointGroupVelocityController
+
+    diff_drive_controller:
+      type: diff_drive_controller/DiffDriveController
+
+simple_velocity_controller:
+  ros__parameters:
+    joints:
+      - front_left_wheel_joint
+      - front_right_wheel_joint
+      - rear_left_wheel_joint
+      - rear_right_wheel_joint
+
+diff_drive_controller:
+  ros__parameters:
+    type: "diff_drive_controller/DiffDriveController"
+    left_wheel_names:
+        - "front_left_wheel_joint"
+        - "rear_left_wheel_joint"
+    right_wheel_names:
+        - "front_right_wheel_joint"
+        - "rear_right_wheel_joint"
+
+    cmd_vel_topic: "/cmd_vel"
+
+    publish_odom: true
+    odom_frame: "odom"
+    base_frame: "base_link"
+        
+    # Wheel specifications
+    wheel_separation: 0.15360         # Distance between the left and right wheels
+    wheel_radius: 0.03008            # Radius of each wheel (half the diameter)
+
+    # Velocity and acceleration limits
+    linear:
+      x:
+        has_velocity_limits: true
+        max_velocity: 2.0          # Maximum linear velocity in m/s
+        has_acceleration_limits: true
+        max_acceleration: 1.0      # Maximum linear acceleration in m/s^2
+
+    angular:
+      z:
+        has_velocity_limits: true
+        max_velocity: 1.0          # Maximum angular velocity in rad/s
+        has_acceleration_limits: true
+        max_acceleration: 0.5      # Maximum angular acceleration in rad/s^2
+
+    # Timeout for received velocity commands
+    cmd_vel_timeout: 0.5           # Stop the robot if no command is received in 0.5 seconds
+
+    # Publish rate for odometry
+    publish_rate: 50.0             # Frequency in Hz
+
+  # Additional configuration for controller manager if needed
+    update_rate: 50                # Controller update rate in Hz
