@@ -1,0 +1,4 @@
+Invoking command in '/home/shiva/ros2_playground/patrol_bot/build/bot3_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shiva/ros2_playground/patrol_bot/build/bot3_controllers -- -j8 -l8
+Invoked command in '/home/shiva/ros2_playground/patrol_bot/build/bot3_controllers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shiva/ros2_playground/patrol_bot/build/bot3_controllers -- -j8 -l8
+Invoking command in '/home/shiva/ros2_playground/patrol_bot/build/bot3_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shiva/ros2_playground/patrol_bot/build/bot3_controllers
+Invoked command in '/home/shiva/ros2_playground/patrol_bot/build/bot3_controllers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shiva/ros2_playground/patrol_bot/build/bot3_controllers
