@@ -30,7 +30,8 @@ def generate_launch_description():
     robot_state_publisher = Node(
        package = "robot_state_publisher",
        executable = "robot_state_publisher",
-       parameters =  [{"robot_description" : robot_description}]
+       output="both",
+       parameters =  [{"robot_description" : robot_description},{"use_sim_time": True}]
     )
 
     start_gazebo_server= IncludeLaunchDescription(PythonLaunchDescriptionSource(os.path.join(
@@ -39,6 +40,11 @@ def generate_launch_description():
     start_gazebo_client= IncludeLaunchDescription(PythonLaunchDescriptionSource(os.path.join(
         get_package_share_directory("gazebo_ros"),"launch","gzclient.launch.py"
     )))    
+
+#     gazebo_node = IncludeLaunchDescription(
+#         PythonLaunchDescriptionSource([os.path.join(
+#             get_package_share_directory('gazebo_ros'), 'launch'), '/gazebo.launch.py'])
+#   )
 
     spwan_robot = Node(
         package = "gazebo_ros",
@@ -53,5 +59,6 @@ def generate_launch_description():
         robot_state_publisher,
         start_gazebo_server,
         start_gazebo_client,
+        # gazebo_node,
         spwan_robot       
      ])

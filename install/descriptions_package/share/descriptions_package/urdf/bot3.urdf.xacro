@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
 <robot name="bot3" xmlns:xacro="http://www.ros.org.wiki/xacro">
 
-    <xacro:include filename = "$(find descriptions_package)/urdf/bot3_ext_info.xacro"/>
-    <xacro:include filename = "$(find descriptions_package)/urdf/bot3_control.xacro"/>
+    <!-- <xacro:include filename = "$(find descriptions_package)/urdf/bot3_ext_info.xacro"/>
+    <xacro:include filename = "$(find descriptions_package)/urdf/bot3_control.xacro"/> -->
 
 
     <link name="base_footprint" />
+
     <link
         name="base_link">
         <inertial>
@@ -13,14 +14,14 @@
                 xyz="0.018226 -2.0781E-05 -0.13643"
                 rpy="0 0 0" />
             <mass
-                value="1.0" />
+                value="2.0" />
             <inertia
-                ixx="0.001014"
-                ixy="1.4943E-06"
-                ixz="8.6765E-05"
-                iyy="0.0027467"
-                iyz="2.6408E-07"
-                izz="0.0027686" />
+                ixx="0.015"
+                ixy="0"
+                ixz="0"
+                iyy="0.0375"
+                iyz="0.0"
+                izz="0.0275" />
         </inertial>
         <visual>
             <origin
@@ -46,7 +47,7 @@
             </geometry>
         </collision>
     </link>
-    <joint name="base_link" type="fixed">
+    <joint name="base_joint" type="fixed">
         <origin
             xyz="0 0 0.21095"
             rpy="0 0 0" />
@@ -63,14 +64,14 @@
                 xyz="-4.4509E-07 -0.015766 -3.0123E-08"
                 rpy="0 0 0" />
             <mass
-                value="0.035128" />
+                value="0.1" />
             <inertia
-                ixx="1.2599E-05"
-                ixy="6.3601E-12"
-                ixz="-4.9469E-11"
-                iyy="1.8665E-05"
-                iyz="7.863E-12"
-                izz="1.2601E-05" />
+                ixx="0.015"
+                ixy="0"
+                ixz="0"
+                iyy="0.0375"
+                iyz="0.0"
+                izz="0.0275" />
         </inertial>
         <visual>
             <origin
@@ -91,8 +92,7 @@
                 xyz="0 0 0"
                 rpy="0 0 0" />
             <geometry>
-                <mesh
-                    filename="package://descriptions_package/meshes/front_left_wheel_link.STL" />
+                <sphere radius="0.03008" />
             </geometry>
         </collision>
     </link>
@@ -119,14 +119,14 @@
                 xyz="2.0522E-07 0.015766 3.9719E-07"
                 rpy="0 0 0" />
             <mass
-                value="0.035128" />
+                value="0.1" />
             <inertia
-                ixx="1.26E-05"
-                ixy="9.8212E-12"
-                ixz="-4.8774E-10"
-                iyy="1.8665E-05"
-                iyz="2.6737E-12"
-                izz="1.26E-05" />
+                ixx="0.015"
+                ixy="0"
+                ixz="0"
+                iyy="0.0375"
+                iyz="0.0"
+                izz="0.0275" />
         </inertial>
         <visual>
             <origin
@@ -147,8 +147,7 @@
                 xyz="0 0 0"
                 rpy="0 0 0" />
             <geometry>
-                <mesh
-                    filename="package://descriptions_package/meshes/front_right_wheel_link.STL" />
+                <sphere radius="0.03008" />
             </geometry>
         </collision>
     </link>
@@ -175,14 +174,14 @@
                 xyz="-4.4509E-07 -0.015766 -3.0123E-08"
                 rpy="0 0 0" />
             <mass
-                value="0.035128" />
+                value="0.1" />
             <inertia
-                ixx="1.2599E-05"
-                ixy="6.3601E-12"
-                ixz="-4.9469E-11"
-                iyy="1.8665E-05"
-                iyz="7.863E-12"
-                izz="1.2601E-05" />
+                ixx="0.015"
+                ixy="0"
+                ixz="0"
+                iyy="0.0375"
+                iyz="0.0"
+                izz="0.0275" />
         </inertial>
         <visual>
             <origin
@@ -203,8 +202,7 @@
                 xyz="0 0 0"
                 rpy="0 0 0" />
             <geometry>
-                <mesh
-                    filename="package://descriptions_package/meshes/rear_left_wheel_link.STL" />
+                <sphere radius="0.03008" />
             </geometry>
         </collision>
     </link>
@@ -231,14 +229,14 @@
                 xyz="2.0522E-07 0.015766 3.9719E-07"
                 rpy="0 0 0" />
             <mass
-                value="0.035128" />
+                value="0.1" />
             <inertia
-                ixx="1.26E-05"
-                ixy="9.8212E-12"
-                ixz="-4.8774E-10"
-                iyy="1.8665E-05"
-                iyz="2.6737E-12"
-                izz="1.26E-05" />
+                ixx="0.015"
+                ixy="0"
+                ixz="0"
+                iyy="0.0375"
+                iyz="0.0"
+                izz="0.0275" />
         </inertial>
         <visual>
             <origin
@@ -259,8 +257,7 @@
                 xyz="0 0 0"
                 rpy="0 0 0" />
             <geometry>
-                <mesh
-                    filename="package://descriptions_package/meshes/rear_right_wheel_link.STL" />
+                <sphere radius="0.03008" />
             </geometry>
         </collision>
     </link>
@@ -280,4 +277,33 @@
             effort="100"
             velocity="10" />
     </joint>
+
+    <gazebo>
+        <plugin name="skid_steer_drive" filename="libgazebo_ros_diff_drive.so">
+
+            <num_wheel_pairs>2</num_wheel_pairs>
+
+            <left_joint>front_left_wheel_joint</left_joint>
+            <right_joint>front_right_wheel_joint</right_joint>
+            <left_joint>rear_left_wheel_joint</left_joint>
+            <right_joint>rear_right_wheel_joint</right_joint>
+
+            <wheel_separation>0.200</wheel_separation>
+            <wheel_separation>0.200</wheel_separation>
+
+            <wheel_diameter>0.06016</wheel_diameter>
+            <wheel_diameter>0.06016</wheel_diameter>
+
+            <max_wheel_torque>100</max_wheel_torque>
+            <max_wheel_acceleration>10.0</max_wheel_acceleration>
+
+            <odometry_frame>odom</odometry_frame>
+            <robot_base_frame>base_footprint</robot_base_frame>
+
+            <publish_odom>true</publish_odom>
+            <publish_odom_tf>true</publish_odom_tf>
+            <publish_wheel_tf>true</publish_wheel_tf>
+        </plugin>
+    </gazebo>
+
 </robot>

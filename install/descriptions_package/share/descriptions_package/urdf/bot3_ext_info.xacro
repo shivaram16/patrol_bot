@@ -2,7 +2,7 @@
 
 <robot name="bot3" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-    <transmission name="wheel_front_left_transmission">
+    <!-- <transmission name="wheel_front_left_transmission">
         <plugin>transmission_interface/SimpleTransmission</plugin>
         <actuators name="front_left_wheel_motor" role = "actuator_front_left"/>
         <joint name="wheel_front_left_joint" role="joint_front_left">
@@ -32,12 +32,12 @@
         <joint name="wheel_rear_right_joint" role="joint_rear_right">
             <mechanical_reduction>1.0</mechanical_reduction>
         </joint>
-    </transmission>
+    </transmission> -->
 
-    <!-- <gazebo reference = "front_left_wheel_link">
-        <mu1>1000000000000000000.0</mu1>
-        <mu2>1000000000000000000.0</mu2>
-        <kp>10000000000.0</kp>
+    <gazebo reference = "front_left_wheel_link">
+        <mu1>100000000000000.0</mu1>
+        <mu2>100000000000000.0</mu2>
+        <kp>1000000000000.0</kp>
         <kd>10.0</kd>
         <minDepth>0.001</minDepth>
         <maxVel>0.1</maxVel>
@@ -46,9 +46,9 @@
     </gazebo>
 
     <gazebo reference = "front_right_wheel_link">
-        <mu1>1000000000000000000.0</mu1>
-        <mu2>1000000000000000000.0</mu2>
-        <kp>10000000000.0</kp>
+        <mu1>100000000000000.0</mu1>
+        <mu2>100000000000000.0</mu2>
+        <kp>1000000000000.0</kp>
         <kd>10.0</kd>
         <minDepth>0.001</minDepth>
         <maxVel>0.1</maxVel>
@@ -57,9 +57,9 @@
     </gazebo>
 
     <gazebo reference = "rear_left_wheel_link">
-        <mu1>1000000000000000000.0</mu1>
-        <mu2>1000000000000000000.0</mu2>
-        <kp>10000000000.0</kp>
+        <mu1>100000000000000.0</mu1>
+        <mu2>100000000000000.0</mu2>
+        <kp>1000000000000.0</kp>
         <kd>10.0</kd>
         <minDepth>0.001</minDepth>
         <maxVel>0.1</maxVel>
@@ -68,15 +68,15 @@
     </gazebo>
 
     <gazebo reference = "rear_right_wheel_link">
-        <mu1>1000000000000000000.0</mu1>
-        <mu2>1000000000000000000.0</mu2>
-        <kp>10000000000.0</kp>
+        <mu1>100000000000000.0</mu1>
+        <mu2>100000000000000.0</mu2>
+        <kp>1000000000000.0</kp>
         <kd>10.0</kd>                           
         <minDepth>0.001</minDepth>
         <maxVel>0.1</maxVel>
         <fdir1>1 0 0</fdir1>
 
-    </gazebo> -->
+    </gazebo>
 
     <gazebo>
         <plugin filename = "libgazebo_ros2_control.so" name = "gazebo_ros2_control">
