@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Up-to-date: /home/shiva/ros2_playground/patrol_bot/install/bot3_controllers/share/bot3_controllers/config
+-- Up-to-date: /home/shiva/ros2_playground/patrol_bot/install/bot3_controllers/share/bot3_controllers/config/joystick_config_bot3.yaml
+-- Up-to-date: /home/shiva/ros2_playground/patrol_bot/install/bot3_controllers/share/bot3_controllers/config/joystick_teleop_config_bot3.yaml
+-- Up-to-date: /home/shiva/ros2_playground/patrol_bot/install/bot3_controllers/share/bot3_controllers/config/bot3_controller.yaml
+-- Up-to-date: /home/shiva/ros2_playground/patrol_bot/install/bot3_controllers/share/bot3_controllers/launch
+-- Up-to-date: /home/shiva/ros2_playground/patrol_bot/install/bot3_controllers/share/bot3_controllers/launch/joystick_teleop_bot3.launch.py
+-- Up-to-date: /home/shiva/ros2_playground/patrol_bot/install/bot3_controllers/share/bot3_controllers/launch/bot3_control.launch.py
+-- Up-to-date: /home/shiva/ros2_playground/patrol_bot/install/bot3_controllers/share/ament_index/resource_index/package_run_dependencies/bot3_controllers
+-- Up-to-date: /home/shiva/ros2_playground/patrol_bot/install/bot3_controllers/share/ament_index/resource_index/parent_prefix_path/bot3_controllers
+-- Up-to-date: /home/shiva/ros2_playground/patrol_bot/install/bot3_controllers/share/bot3_controllers/environment/ament_prefix_path.sh
+-- Up-to-date: /home/shiva/ros2_playground/patrol_bot/install/bot3_controllers/share/bot3_controllers/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/shiva/ros2_playground/patrol_bot/install/bot3_controllers/share/bot3_controllers/environment/path.sh
+-- Up-to-date: /home/shiva/ros2_playground/patrol_bot/install/bot3_controllers/share/bot3_controllers/environment/path.dsv
+-- Up-to-date: /home/shiva/ros2_playground/patrol_bot/install/bot3_controllers/share/bot3_controllers/local_setup.bash
+-- Up-to-date: /home/shiva/ros2_playground/patrol_bot/install/bot3_controllers/share/bot3_controllers/local_setup.sh
+-- Up-to-date: /home/shiva/ros2_playground/patrol_bot/install/bot3_controllers/share/bot3_controllers/local_setup.zsh
+-- Up-to-date: /home/shiva/ros2_playground/patrol_bot/install/bot3_controllers/share/bot3_controllers/local_setup.dsv
+-- Up-to-date: /home/shiva/ros2_playground/patrol_bot/install/bot3_controllers/share/bot3_controllers/package.dsv
+-- Up-to-date: /home/shiva/ros2_playground/patrol_bot/install/bot3_controllers/share/ament_index/resource_index/packages/bot3_controllers
+-- Up-to-date: /home/shiva/ros2_playground/patrol_bot/install/bot3_controllers/share/bot3_controllers/cmake/bot3_controllersConfig.cmake
+-- Up-to-date: /home/shiva/ros2_playground/patrol_bot/install/bot3_controllers/share/bot3_controllers/cmake/bot3_controllersConfig-version.cmake
+-- Up-to-date: /home/shiva/ros2_playground/patrol_bot/install/bot3_controllers/share/bot3_controllers/package.xml

@@ -14,7 +14,7 @@
                 xyz="0.018226 -2.0781E-05 -0.13643"
                 rpy="0 0 0" />
             <mass
-                value="2.0" />
+                value="10.0" />
             <inertia
                 ixx="0.015"
                 ixy="0"
@@ -295,7 +295,7 @@
             <wheel_diameter>0.06016</wheel_diameter>
 
             <max_wheel_torque>100</max_wheel_torque>
-            <max_wheel_acceleration>10.0</max_wheel_acceleration>
+            <max_wheel_acceleration>1.0</max_wheel_acceleration>
 
             <odometry_frame>odom</odometry_frame>
             <robot_base_frame>base_footprint</robot_base_frame>
