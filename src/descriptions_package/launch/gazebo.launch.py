@@ -10,22 +10,28 @@ from launch.launch_description_sources import PythonLaunchDescriptionSource
 from scripts import GazeboRosPaths
 
 def generate_launch_description():
-
-    model_path,plugin_path,media_path=GazeboRosPaths.get_paths()
      
     bot3_description = get_package_share_directory("descriptions_package")
     bot3_description_prefix = get_package_prefix("descriptions_package")
-    model_path = os.path.join(bot3_description,"models","models")
-    env_variable = SetEnvironmentVariable("GAZEBO_MODEL_PATH",model_path)
+
+    model_path = os.path.join(bot3_description,"models")
     model_path += pathsep + os.path.join(bot3_description_prefix,"share")
+    
+    env_variable = SetEnvironmentVariable("GAZEBO_MODEL_PATH",model_path)
+    
 
     model_arg = DeclareLaunchArgument(
-        name = "model",
+        name = "patrol_bot",
         default_value= os.path.join(bot3_description,"urdf","bot3.urdf.xacro"),
         description= "complete path for the robot's urdf file"
     )
+    world_arg = DeclareLaunchArgument(
+        name="world",
+        default_value=os.path.join(get_package_share_directory("descriptions_package"), "worlds", "small_house.world"),
+        description="Path to the custom world file"
+    )
 
-    robot_description = ParameterValue(Command(["xacro ", LaunchConfiguration("model")]),value_type= str)
+    robot_description = ParameterValue(Command(["xacro ", LaunchConfiguration("patrol_bot")]),value_type= str)
 
     robot_state_publisher = Node(
        package = "robot_state_publisher",
@@ -34,31 +40,29 @@ def generate_launch_description():
        parameters =  [{"robot_description" : robot_description},{"use_sim_time": True}]
     )
 
-    start_gazebo_server= IncludeLaunchDescription(PythonLaunchDescriptionSource(os.path.join(
-        get_package_share_directory("gazebo_ros"),"launch","gzserver.launch.py"
-    )))
+
+    start_gazebo_server = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(os.path.join(
+            get_package_share_directory("gazebo_ros"), "launch", "gzserver.launch.py")),
+        launch_arguments={"world": LaunchConfiguration("world")}.items()
+    )
     start_gazebo_client= IncludeLaunchDescription(PythonLaunchDescriptionSource(os.path.join(
         get_package_share_directory("gazebo_ros"),"launch","gzclient.launch.py"
     )))    
 
-#     gazebo_node = IncludeLaunchDescription(
-#         PythonLaunchDescriptionSource([os.path.join(
-#             get_package_share_directory('gazebo_ros'), 'launch'), '/gazebo.launch.py'])
-#   )
-
     spwan_robot = Node(
         package = "gazebo_ros",
         executable = "spawn_entity.py",
-        arguments=["-entity","bot3","-topic","robot_description"],
+        arguments=["-entity","patrol_bot","-topic","robot_description"],
         output = "screen"
     )
 
     return LaunchDescription([
         env_variable,
         model_arg,
+        world_arg,
         robot_state_publisher,
         start_gazebo_server,
         start_gazebo_client,
-        # gazebo_node,
         spwan_robot       
      ])

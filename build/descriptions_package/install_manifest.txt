@@ -1,6 +1,9 @@
+/home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/descriptions_package/meshes/laser_link.STL
 /home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/descriptions_package/meshes/front_right_wheel_link.STL
+/home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/descriptions_package/meshes/lidar.STL
 /home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/descriptions_package/meshes/base_link.STL
 /home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/descriptions_package/meshes/rear_left_wheel_link.STL
+/home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/descriptions_package/meshes/lidar_plate.STL
 /home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/descriptions_package/meshes/front_left_wheel_link.STL
 /home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/descriptions_package/meshes/rear_right_wheel_link.STL
 /home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/descriptions_package/urdf/bot3_control.xacro
@@ -148,16 +151,6 @@
 /home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/descriptions_package/models/aws_robomaker_residential_RoomWall_01/materials/textures/aws_RoomWall_01.png
 /home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/descriptions_package/models/aws_robomaker_residential_RoomWall_01/meshes/aws_RoomWall_01_visual.DAE
 /home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/descriptions_package/models/aws_robomaker_residential_RoomWall_01/meshes/aws_RoomWall_01_collision.DAE
-/home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/descriptions_package/models/models/sun/model-1_3.sdf
-/home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/descriptions_package/models/models/sun/model.config
-/home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/descriptions_package/models/models/sun/model-1_2.sdf
-/home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/descriptions_package/models/models/sun/model.sdf
-/home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/descriptions_package/models/models/sun/model-1_4.sdf
-/home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/descriptions_package/models/models/ground_plane/model-1_3.sdf
-/home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/descriptions_package/models/models/ground_plane/model.config
-/home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/descriptions_package/models/models/ground_plane/model-1_2.sdf
-/home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/descriptions_package/models/models/ground_plane/model.sdf
-/home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/descriptions_package/models/models/ground_plane/model-1_4.sdf
 /home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/descriptions_package/models/aws_robomaker_residential_AirconditionerA_01/model.config
 /home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/descriptions_package/models/aws_robomaker_residential_AirconditionerA_01/model.sdf
 /home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/descriptions_package/models/aws_robomaker_residential_AirconditionerA_01/meshes/aws_AirconditionerA_01_visual.DAE
@@ -496,6 +489,9 @@
 /home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/descriptions_package/models/aws_robomaker_residential_Trash_01/materials/textures/aws_Trash_01.png
 /home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/descriptions_package/models/aws_robomaker_residential_Trash_01/meshes/aws_Trash_01_collision.DAE
 /home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/descriptions_package/models/aws_robomaker_residential_Trash_01/meshes/aws_Trash_01_visual.DAE
+/home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/descriptions_package/worlds/empty.world
+/home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/descriptions_package/worlds/small_warehouse.world
+/home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/descriptions_package/worlds/small_house.world
 /home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/ament_index/resource_index/package_run_dependencies/descriptions_package
 /home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/ament_index/resource_index/parent_prefix_path/descriptions_package
 /home/shiva16/ros2_playground/patrol_bot/install/descriptions_package/share/descriptions_package/environment/ament_prefix_path.sh

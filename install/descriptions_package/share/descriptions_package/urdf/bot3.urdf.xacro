@@ -196,7 +196,7 @@
                 <color
                     rgba="0.29804 0.29804 0.29804 1" />
             </material>
-        </visual>
+        </visual> 
         <collision>
             <origin
                 xyz="0 0 0"
@@ -276,6 +276,65 @@
         <limit
             effort="100"
             velocity="10" />
+    </joint>
+
+    <link name="lidar_plate">
+        <inertial>
+            <origin xyz="-7.97972798949331E-17 -2.77555756156289E-17 -0.0015" rpy="0 0 0" />
+            <mass value="0.130589232495131" />
+            <inertia ixx="0.000244952752852722" ixy="-2.05838477476482E-19" ixz="3.17637355220363E-21" iyy="0.000916562838264241" iyz="-3.57552883056295E-21" izz="0.00116131970726822" />
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://descriptions_package/meshes/lidar_plate.STL" />
+            </geometry>
+            <material name="">
+                <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://descriptions_package/meshes/lidar_plate.STL" />
+            </geometry>
+        </collision>
+    </link>
+    <joint name="lidar_plate_joint" type="fixed">
+        <origin xyz="0.0030144 0 0.003" rpy="0 0 0" />
+        <parent link="base_link" />
+        <child link="lidar_plate" />
+        <axis xyz="0 0 0" />
+    </joint>
+    <link name="lidar_sensor">
+        <inertial>
+            <origin xyz="-0.011945780406062 -0.000381929217680526 -0.0170649378129477" rpy="0 0 0" />
+            <mass value="0.073084435549317" />
+            <inertia ixx="1.96074931730795E-05" ixy="-3.62091076640009E-07" ixz="4.28230084046735E-07"
+                     iyy="2.40983835136327E-05" iyz="1.50180909250652E-08"
+                     izz="4.14184164228595E-05" />
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://descriptions_package/meshes/laser_link.STL" />
+            </geometry>
+            <material name="">
+                <color rgba="0.298039215686275 0.298039215686275 0.298039215686275 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://descriptions_package/meshes/lidar.STL" />
+            </geometry>
+        </collision>
+    </link>
+    <joint name="lidar_joint" type="fixed">
+        <origin xyz="0 0 0.045" rpy="0 0 0" />
+        <parent link="base_link" />
+        <child link="lidar_sensor" />
+        <axis xyz="0 0 0" />
     </joint>
 
     <gazebo>

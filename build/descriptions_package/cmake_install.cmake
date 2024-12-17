@@ -49,6 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/shiva16/ros2_playground/patrol_bot/src/descriptions_package/launch"
     "/home/shiva16/ros2_playground/patrol_bot/src/descriptions_package/rviz_configs"
     "/home/shiva16/ros2_playground/patrol_bot/src/descriptions_package/models"
+    "/home/shiva16/ros2_playground/patrol_bot/src/descriptions_package/worlds"
     )
 endif()
 
