@@ -1,0 +1,11 @@
+/home/shiva16/ros2_playground/patrol_bot/build/localization_package/CMakeFiles/uninstall.dir
+/home/shiva16/ros2_playground/patrol_bot/build/localization_package/CMakeFiles/localization_package_uninstall.dir
+/home/shiva16/ros2_playground/patrol_bot/build/localization_package/CMakeFiles/ament_cmake_python_copy_localization_package.dir
+/home/shiva16/ros2_playground/patrol_bot/build/localization_package/CMakeFiles/ament_cmake_python_build_localization_package_egg.dir
+/home/shiva16/ros2_playground/patrol_bot/build/localization_package/CMakeFiles/test.dir
+/home/shiva16/ros2_playground/patrol_bot/build/localization_package/CMakeFiles/edit_cache.dir
+/home/shiva16/ros2_playground/patrol_bot/build/localization_package/CMakeFiles/rebuild_cache.dir
+/home/shiva16/ros2_playground/patrol_bot/build/localization_package/CMakeFiles/list_install_components.dir
+/home/shiva16/ros2_playground/patrol_bot/build/localization_package/CMakeFiles/install.dir
+/home/shiva16/ros2_playground/patrol_bot/build/localization_package/CMakeFiles/install/local.dir
+/home/shiva16/ros2_playground/patrol_bot/build/localization_package/CMakeFiles/install/strip.dir

@@ -1,0 +1,6 @@
+setup.py
+mapping_pkg/__init__.py
+mapping_pkg.egg-info/PKG-INFO
+mapping_pkg.egg-info/SOURCES.txt
+mapping_pkg.egg-info/dependency_links.txt
+mapping_pkg.egg-info/top_level.txt
