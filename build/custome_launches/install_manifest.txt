@@ -1,3 +1,4 @@
+/home/shiva16/ros2_playground/patrol_bot/install/custome_launches/share/custome_launches/launch/custome_launch_one.launch.py
 /home/shiva16/ros2_playground/patrol_bot/install/custome_launches/share/ament_index/resource_index/package_run_dependencies/custome_launches
 /home/shiva16/ros2_playground/patrol_bot/install/custome_launches/share/ament_index/resource_index/parent_prefix_path/custome_launches
 /home/shiva16/ros2_playground/patrol_bot/install/custome_launches/share/custome_launches/environment/ament_prefix_path.sh
