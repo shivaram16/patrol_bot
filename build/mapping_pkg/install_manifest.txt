@@ -7,6 +7,8 @@
 /home/shiva16/ros2_playground/patrol_bot/install/mapping_pkg/local/lib/python3.10/dist-packages/mapping_pkg/__init__.py
 /home/shiva16/ros2_playground/patrol_bot/install/mapping_pkg/share/mapping_pkg/maps/small_house/map.yaml
 /home/shiva16/ros2_playground/patrol_bot/install/mapping_pkg/share/mapping_pkg/maps/small_house/map.pgm
+/home/shiva16/ros2_playground/patrol_bot/install/mapping_pkg/share/mapping_pkg/launch/slam.launch.py
+/home/shiva16/ros2_playground/patrol_bot/install/mapping_pkg/share/mapping_pkg/config/slam_toolbox.yaml
 /home/shiva16/ros2_playground/patrol_bot/install/mapping_pkg/share/ament_index/resource_index/package_run_dependencies/mapping_pkg
 /home/shiva16/ros2_playground/patrol_bot/install/mapping_pkg/share/ament_index/resource_index/parent_prefix_path/mapping_pkg
 /home/shiva16/ros2_playground/patrol_bot/install/mapping_pkg/share/mapping_pkg/environment/ament_prefix_path.sh

@@ -21,7 +21,7 @@ find_package(tf2_ros REQUIRED)
 ament_python_install_package(${PROJECT_NAME})
 
 install(
-  DIRECTORY maps
+  DIRECTORY maps launch config
   DESTINATION share/${PROJECT_NAME}
 )
 

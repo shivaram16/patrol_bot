@@ -67,7 +67,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mapping_pkg" TYPE DIRECTORY FILES "/home/shiva16/ros2_playground/patrol_bot/src/mapping_pkg/maps")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mapping_pkg" TYPE DIRECTORY FILES
+    "/home/shiva16/ros2_playground/patrol_bot/src/mapping_pkg/maps"
+    "/home/shiva16/ros2_playground/patrol_bot/src/mapping_pkg/launch"
+    "/home/shiva16/ros2_playground/patrol_bot/src/mapping_pkg/config"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
