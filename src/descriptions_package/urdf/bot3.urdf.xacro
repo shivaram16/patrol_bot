@@ -331,7 +331,7 @@
         </collision>
     </link>
     <joint name="lidar_joint" type="fixed">
-        <origin xyz="0 0 0.045" rpy="0 0 0" />
+        <origin xyz="0 0 0.045" rpy="0 0 3.14" />
         <parent link="base_link" />
         <child link="lidar_sensor" />
         <axis xyz="0 0 0" />
@@ -347,8 +347,8 @@
             <left_joint>rear_left_wheel_joint</left_joint>
             <right_joint>rear_right_wheel_joint</right_joint>
 
-            <wheel_separation>0.200</wheel_separation>
-            <wheel_separation>0.200</wheel_separation>
+            <wheel_separation>0.190</wheel_separation>
+            <wheel_separation>0.180</wheel_separation>
 
             <wheel_diameter>0.06016</wheel_diameter>
             <wheel_diameter>0.06016</wheel_diameter>

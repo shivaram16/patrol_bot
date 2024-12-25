@@ -20,6 +20,11 @@ find_package(tf2_ros REQUIRED)
 
 ament_python_install_package(${PROJECT_NAME})
 
+install(PROGRAMS
+  ${PROJECT_NAME}/mapping_without_amcl.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 install(
   DIRECTORY maps launch config
   DESTINATION share/${PROJECT_NAME}

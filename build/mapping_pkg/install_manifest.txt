@@ -4,7 +4,9 @@
 /home/shiva16/ros2_playground/patrol_bot/install/mapping_pkg/local/lib/python3.10/dist-packages/mapping_pkg-0.0.0-py3.10.egg-info/top_level.txt
 /home/shiva16/ros2_playground/patrol_bot/install/mapping_pkg/local/lib/python3.10/dist-packages/mapping_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
 /home/shiva16/ros2_playground/patrol_bot/install/mapping_pkg/local/lib/python3.10/dist-packages/mapping_pkg-0.0.0-py3.10.egg-info/PKG-INFO
+/home/shiva16/ros2_playground/patrol_bot/install/mapping_pkg/local/lib/python3.10/dist-packages/mapping_pkg/mapping_without_amcl.py
 /home/shiva16/ros2_playground/patrol_bot/install/mapping_pkg/local/lib/python3.10/dist-packages/mapping_pkg/__init__.py
+/home/shiva16/ros2_playground/patrol_bot/install/mapping_pkg/lib/mapping_pkg/mapping_without_amcl.py
 /home/shiva16/ros2_playground/patrol_bot/install/mapping_pkg/share/mapping_pkg/maps/small_house/map.yaml
 /home/shiva16/ros2_playground/patrol_bot/install/mapping_pkg/share/mapping_pkg/maps/small_house/map.pgm
 /home/shiva16/ros2_playground/patrol_bot/install/mapping_pkg/share/mapping_pkg/launch/slam.launch.py
