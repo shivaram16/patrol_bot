@@ -1,0 +1,48 @@
+[0.022s] Invoking command in '/home/shiva16/ros2_playground/patrol_bot/build/navigation_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shiva16/ros2_playground/patrol_bot/src/navigation_package -DCMAKE_INSTALL_PREFIX=/home/shiva16/ros2_playground/patrol_bot/install/navigation_package
+[0.135s] -- The C compiler identification is GNU 11.4.0
+[0.170s] -- The CXX compiler identification is GNU 11.4.0
+[0.179s] -- Detecting C compiler ABI info
+[0.250s] -- Detecting C compiler ABI info - done
+[0.255s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.255s] -- Detecting C compile features
+[0.256s] -- Detecting C compile features - done
+[0.258s] -- Detecting CXX compiler ABI info
+[0.336s] -- Detecting CXX compiler ABI info - done
+[0.341s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.341s] -- Detecting CXX compile features
+[0.341s] -- Detecting CXX compile features - done
+[0.344s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.462s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.541s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.629s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.630s] -- Added test 'lint_cmake' to check CMake code style
+[0.630s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.633s] -- Added test 'xmllint' to check XML markup files
+[0.634s] -- Configuring done
+[0.636s] -- Generating done
+[0.637s] -- Build files have been written to: /home/shiva16/ros2_playground/patrol_bot/build/navigation_package
+[0.643s] Invoked command in '/home/shiva16/ros2_playground/patrol_bot/build/navigation_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shiva16/ros2_playground/patrol_bot/src/navigation_package -DCMAKE_INSTALL_PREFIX=/home/shiva16/ros2_playground/patrol_bot/install/navigation_package
+[0.645s] Invoking command in '/home/shiva16/ros2_playground/patrol_bot/build/navigation_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shiva16/ros2_playground/patrol_bot/build/navigation_package -- -j16 -l16
+[0.678s] Invoked command in '/home/shiva16/ros2_playground/patrol_bot/build/navigation_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shiva16/ros2_playground/patrol_bot/build/navigation_package -- -j16 -l16
+[0.680s] Invoking command in '/home/shiva16/ros2_playground/patrol_bot/build/navigation_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shiva16/ros2_playground/patrol_bot/build/navigation_package
+[0.686s] -- Install configuration: ""
+[0.687s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/launch
+[0.687s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/launch/navigation2.launch.py
+[0.687s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/config
+[0.687s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/config/nav2_params.yaml
+[0.687s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/ament_index/resource_index/package_run_dependencies/navigation_package
+[0.687s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/ament_index/resource_index/parent_prefix_path/navigation_package
+[0.687s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/environment/ament_prefix_path.sh
+[0.687s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/environment/ament_prefix_path.dsv
+[0.687s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/environment/path.sh
+[0.688s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/environment/path.dsv
+[0.688s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/local_setup.bash
+[0.688s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/local_setup.sh
+[0.688s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/local_setup.zsh
+[0.688s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/local_setup.dsv
+[0.688s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/package.dsv
+[0.688s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/ament_index/resource_index/packages/navigation_package
+[0.688s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/cmake/navigation_packageConfig.cmake
+[0.688s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/cmake/navigation_packageConfig-version.cmake
+[0.689s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/package.xml
+[0.691s] Invoked command in '/home/shiva16/ros2_playground/patrol_bot/build/navigation_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shiva16/ros2_playground/patrol_bot/build/navigation_package
