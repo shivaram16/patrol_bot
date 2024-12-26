@@ -1,0 +1,2 @@
+Invoking command in '/home/shiva16/ros2_playground/patrol_bot/build/navigation_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shiva16/ros2_playground/patrol_bot/build/navigation_package -- -j16 -l16
+Invoked command in '/home/shiva16/ros2_playground/patrol_bot/build/navigation_package' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shiva16/ros2_playground/patrol_bot/build/navigation_package -- -j16 -l16

@@ -1,0 +1,42 @@
+[0.015s] Invoking command in '/home/shiva16/ros2_playground/patrol_bot/build/localization_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shiva16/ros2_playground/patrol_bot/build/localization_package -- -j16 -l16
+[0.057s] Built target ament_cmake_python_copy_localization_package
+[0.238s] running egg_info
+[0.238s] writing localization_package.egg-info/PKG-INFO
+[0.239s] writing dependency_links to localization_package.egg-info/dependency_links.txt
+[0.239s] writing top-level names to localization_package.egg-info/top_level.txt
+[0.241s] reading manifest file 'localization_package.egg-info/SOURCES.txt'
+[0.241s] writing manifest file 'localization_package.egg-info/SOURCES.txt'
+[0.261s] Built target ament_cmake_python_build_localization_package_egg
+[0.272s] Invoked command in '/home/shiva16/ros2_playground/patrol_bot/build/localization_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shiva16/ros2_playground/patrol_bot/build/localization_package -- -j16 -l16
+[0.273s] Invoking command in '/home/shiva16/ros2_playground/patrol_bot/build/localization_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shiva16/ros2_playground/patrol_bot/build/localization_package
+[0.279s] -- Install configuration: ""
+[0.279s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/localization_package/share/localization_package/environment/pythonpath.sh
+[0.279s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/localization_package/share/localization_package/environment/pythonpath.dsv
+[0.279s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/localization_package/local/lib/python3.10/dist-packages/localization_package-0.0.0-py3.10.egg-info
+[0.279s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/localization_package/local/lib/python3.10/dist-packages/localization_package-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.279s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/localization_package/local/lib/python3.10/dist-packages/localization_package-0.0.0-py3.10.egg-info/top_level.txt
+[0.279s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/localization_package/local/lib/python3.10/dist-packages/localization_package-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.279s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/localization_package/local/lib/python3.10/dist-packages/localization_package-0.0.0-py3.10.egg-info/PKG-INFO
+[0.280s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/localization_package/local/lib/python3.10/dist-packages/localization_package
+[0.280s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/localization_package/local/lib/python3.10/dist-packages/localization_package/__init__.py
+[0.300s] Listing '/home/shiva16/ros2_playground/patrol_bot/install/localization_package/local/lib/python3.10/dist-packages/localization_package'...
+[0.303s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/localization_package/share/localization_package/launch
+[0.303s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/localization_package/share/localization_package/launch/global_localization.launch.py
+[0.303s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/localization_package/share/localization_package/config
+[0.303s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/localization_package/share/localization_package/config/amcl.yaml
+[0.304s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/localization_package/share/ament_index/resource_index/package_run_dependencies/localization_package
+[0.304s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/localization_package/share/ament_index/resource_index/parent_prefix_path/localization_package
+[0.304s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/localization_package/share/localization_package/environment/ament_prefix_path.sh
+[0.304s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/localization_package/share/localization_package/environment/ament_prefix_path.dsv
+[0.304s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/localization_package/share/localization_package/environment/path.sh
+[0.304s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/localization_package/share/localization_package/environment/path.dsv
+[0.304s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/localization_package/share/localization_package/local_setup.bash
+[0.304s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/localization_package/share/localization_package/local_setup.sh
+[0.304s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/localization_package/share/localization_package/local_setup.zsh
+[0.305s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/localization_package/share/localization_package/local_setup.dsv
+[0.305s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/localization_package/share/localization_package/package.dsv
+[0.305s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/localization_package/share/ament_index/resource_index/packages/localization_package
+[0.305s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/localization_package/share/localization_package/cmake/localization_packageConfig.cmake
+[0.305s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/localization_package/share/localization_package/cmake/localization_packageConfig-version.cmake
+[0.305s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/localization_package/share/localization_package/package.xml
+[0.307s] Invoked command in '/home/shiva16/ros2_playground/patrol_bot/build/localization_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shiva16/ros2_playground/patrol_bot/build/localization_package

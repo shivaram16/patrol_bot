@@ -1,0 +1,9 @@
+[0.017s] Invoking command in '/home/shiva16/ros2_playground/patrol_bot/build/localization_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shiva16/ros2_playground/patrol_bot/build/localization_package -- -j16 -l16
+[0.081s] Built target ament_cmake_python_copy_localization_package
+[0.257s] running egg_info
+[0.257s] writing localization_package.egg-info/PKG-INFO
+[0.257s] writing dependency_links to localization_package.egg-info/dependency_links.txt
+[0.257s] writing top-level names to localization_package.egg-info/top_level.txt
+[0.260s] reading manifest file 'localization_package.egg-info/SOURCES.txt'
+[0.260s] writing manifest file 'localization_package.egg-info/SOURCES.txt'
+[0.283s] Built target ament_cmake_python_build_localization_package_egg

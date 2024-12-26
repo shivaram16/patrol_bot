@@ -43,7 +43,10 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custome_launches" TYPE DIRECTORY FILES "/home/shiva16/ros2_playground/patrol_bot/src/custome_launches/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custome_launches" TYPE DIRECTORY FILES
+    "/home/shiva16/ros2_playground/patrol_bot/src/custome_launches/launch"
+    "/home/shiva16/ros2_playground/patrol_bot/src/custome_launches/rviz_configs"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

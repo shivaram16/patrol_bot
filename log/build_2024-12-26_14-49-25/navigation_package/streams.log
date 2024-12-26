@@ -1,0 +1,52 @@
+[0.018s] Invoking command in '/home/shiva16/ros2_playground/patrol_bot/build/navigation_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shiva16/ros2_playground/patrol_bot/build/navigation_package -- -j16 -l16
+[0.033s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.126s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.203s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.204s] -- Added test 'lint_cmake' to check CMake code style
+[0.204s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.206s] -- Added test 'xmllint' to check XML markup files
+[0.207s] -- Configuring done
+[0.210s] -- Generating done
+[0.211s] -- Build files have been written to: /home/shiva16/ros2_playground/patrol_bot/build/navigation_package
+[0.232s] Invoked command in '/home/shiva16/ros2_playground/patrol_bot/build/navigation_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shiva16/ros2_playground/patrol_bot/build/navigation_package -- -j16 -l16
+[0.233s] Invoking command in '/home/shiva16/ros2_playground/patrol_bot/build/navigation_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shiva16/ros2_playground/patrol_bot/build/navigation_package
+[0.241s] -- Install configuration: ""
+[0.241s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/launch
+[0.241s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/launch/navigation2.launch.py
+[0.241s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/config
+[0.241s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/config/nav2_params.yaml
+[0.241s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/smac_state_lattice_params
+[0.241s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/smac_state_lattice_params/sample_primitives
+[0.241s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/smac_state_lattice_params/sample_primitives/5cm_resolution
+[0.241s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/smac_state_lattice_params/sample_primitives/5cm_resolution/1m_turning_radius
+[0.241s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/smac_state_lattice_params/sample_primitives/5cm_resolution/1m_turning_radius/omni
+[0.242s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/smac_state_lattice_params/sample_primitives/5cm_resolution/1m_turning_radius/omni/output.json
+[0.242s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/smac_state_lattice_params/sample_primitives/5cm_resolution/1m_turning_radius/ackermann
+[0.242s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/smac_state_lattice_params/sample_primitives/5cm_resolution/1m_turning_radius/ackermann/output.json
+[0.242s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/smac_state_lattice_params/sample_primitives/5cm_resolution/1m_turning_radius/all_trajectories.png
+[0.242s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/smac_state_lattice_params/sample_primitives/5cm_resolution/1m_turning_radius/diff
+[0.242s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/smac_state_lattice_params/sample_primitives/5cm_resolution/1m_turning_radius/diff/output.json
+[0.242s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/smac_state_lattice_params/sample_primitives/5cm_resolution/0.5m_turning_radius
+[0.242s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/smac_state_lattice_params/sample_primitives/5cm_resolution/0.5m_turning_radius/omni
+[0.242s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/smac_state_lattice_params/sample_primitives/5cm_resolution/0.5m_turning_radius/omni/output.json
+[0.242s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/smac_state_lattice_params/sample_primitives/5cm_resolution/0.5m_turning_radius/ackermann
+[0.242s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/smac_state_lattice_params/sample_primitives/5cm_resolution/0.5m_turning_radius/ackermann/output.json
+[0.242s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/smac_state_lattice_params/sample_primitives/5cm_resolution/0.5m_turning_radius/all_trajectories.png
+[0.242s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/smac_state_lattice_params/sample_primitives/5cm_resolution/0.5m_turning_radius/diff
+[0.242s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/smac_state_lattice_params/sample_primitives/5cm_resolution/0.5m_turning_radius/diff/output.json
+[0.242s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/ament_index/resource_index/package_run_dependencies/navigation_package
+[0.243s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/ament_index/resource_index/parent_prefix_path/navigation_package
+[0.243s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/environment/ament_prefix_path.sh
+[0.243s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/environment/ament_prefix_path.dsv
+[0.243s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/environment/path.sh
+[0.243s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/environment/path.dsv
+[0.243s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/local_setup.bash
+[0.243s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/local_setup.sh
+[0.243s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/local_setup.zsh
+[0.243s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/local_setup.dsv
+[0.243s] -- Installing: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/package.dsv
+[0.243s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/ament_index/resource_index/packages/navigation_package
+[0.243s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/cmake/navigation_packageConfig.cmake
+[0.243s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/cmake/navigation_packageConfig-version.cmake
+[0.243s] -- Up-to-date: /home/shiva16/ros2_playground/patrol_bot/install/navigation_package/share/navigation_package/package.xml
+[0.245s] Invoked command in '/home/shiva16/ros2_playground/patrol_bot/build/navigation_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shiva16/ros2_playground/patrol_bot/build/navigation_package

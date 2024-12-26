@@ -60,13 +60,11 @@ def generate_launch_description():
                        'waypoint_follower',
                        'velocity_smoother']
     
-
-    configured_params = ParameterFile(
-        RewrittenYaml(
-            source_file=params_file,
-            param_rewrites=param_substitutions,
-            convert_types=True),
-            allow_substs= True
+    configured_params = RewrittenYaml(
+        source_file=params_file,
+        root_key="",
+        param_rewrites=param_substitutions,
+        convert_types=True
     )
 
 
