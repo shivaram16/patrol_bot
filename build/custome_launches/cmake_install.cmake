@@ -46,6 +46,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custome_launches" TYPE DIRECTORY FILES
     "/home/shiva16/ros2_playground/patrol_bot/src/custome_launches/launch"
     "/home/shiva16/ros2_playground/patrol_bot/src/custome_launches/rviz_configs"
+    "/home/shiva16/ros2_playground/patrol_bot/src/custome_launches/config"
     )
 endif()
 
