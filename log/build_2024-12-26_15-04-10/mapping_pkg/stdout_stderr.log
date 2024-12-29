@@ -1,8 +1,0 @@
-Built target ament_cmake_python_copy_mapping_pkg
-running egg_info
-writing mapping_pkg.egg-info/PKG-INFO
-writing dependency_links to mapping_pkg.egg-info/dependency_links.txt
-writing top-level names to mapping_pkg.egg-info/top_level.txt
-reading manifest file 'mapping_pkg.egg-info/SOURCES.txt'
-writing manifest file 'mapping_pkg.egg-info/SOURCES.txt'
-Built target ament_cmake_python_build_mapping_pkg_egg

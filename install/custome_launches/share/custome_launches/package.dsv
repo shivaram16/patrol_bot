@@ -1,8 +1,0 @@
-source;share/custome_launches/hook/cmake_prefix_path.ps1
-source;share/custome_launches/hook/cmake_prefix_path.dsv
-source;share/custome_launches/hook/cmake_prefix_path.sh
-source;share/custome_launches/local_setup.bash
-source;share/custome_launches/local_setup.dsv
-source;share/custome_launches/local_setup.ps1
-source;share/custome_launches/local_setup.sh
-source;share/custome_launches/local_setup.zsh

@@ -1,6 +1,0 @@
-setup.py
-localization_package/__init__.py
-localization_package.egg-info/PKG-INFO
-localization_package.egg-info/SOURCES.txt
-localization_package.egg-info/dependency_links.txt
-localization_package.egg-info/top_level.txt

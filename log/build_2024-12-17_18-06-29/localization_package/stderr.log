@@ -1,6 +1,0 @@
-[31mCMake Error at cmake_install.cmake:70 (file):
-  file INSTALL cannot find
-  "/home/shiva16/ros2_playground/patrol_bot/src/localization_package/localization_package/kalman_filter.py":
-  No such file or directory.
-
-[0m

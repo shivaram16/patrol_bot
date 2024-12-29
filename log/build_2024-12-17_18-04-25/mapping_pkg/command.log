@@ -1,1 +1,0 @@
-Invoking command in '/home/shiva16/ros2_playground/patrol_bot/build/mapping_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shiva16/ros2_playground/patrol_bot/src/mapping_pkg -DCMAKE_INSTALL_PREFIX=/home/shiva16/ros2_playground/patrol_bot/install/mapping_pkg
