@@ -1,6 +1,7 @@
 from launch import LaunchDescription
 from launch.actions import IncludeLaunchDescription, DeclareLaunchArgument, TimerAction, ExecuteProcess
 import os
+from launch_ros.actions import Node
 from ament_index_python.packages import get_package_share_directory
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration
@@ -47,6 +48,18 @@ def generate_launch_description():
             )
         ]
     )
+    
+    # Controller launch
+    controller_launch = IncludeLaunchDescription(
+        os.path.join(get_package_share_directory("bot3_controllers"),"launch","bot3_control.launch.py"))
+    
+    #Twist Transform node
+    twist_relay_node = Node(
+        package = "custome_launches",
+        executable="twist_twistStamped_transform_node.py",
+        output='screen'
+    )
+
 
     # Joystick teleop launch
     joystick_teleop_launch = TimerAction(
@@ -105,18 +118,18 @@ def generate_launch_description():
 
     # Twist mux launch
     twist_mux_launch = TimerAction(
-        period=18.0,  # Wait for Navigation to initialize
+        period=5.0,  # Wait for Navigation to initialize
         actions=[
             IncludeLaunchDescription(
                 PythonLaunchDescriptionSource(
                     os.path.join(get_package_share_directory("twist_mux"), "launch", "twist_mux_launch.py")
                 ),
                 launch_arguments={
-                    "cmd_vel_out": "cmd_vel",
+                    "cmd_vel_out": "mux_twist_out",
                     "config_topics": os.path.join(get_package_share_directory("custome_launches"), "config", "twist_mux_topics.yaml"),
                     "config_locks": os.path.join(get_package_share_directory("custome_launches"), "config", "twist_mux_locks.yaml"),
                     "config_joy": os.path.join(get_package_share_directory("custome_launches"), "config", "twist_mux_joy.yaml"),
-                    "use_sim_time": use_sim_time
+                    "use_sim_time": "False"
                 }.items()
             )
         ]
@@ -126,8 +139,10 @@ def generate_launch_description():
         start_nav_arg,
         start_slam_arg,
         use_sim_time_arg,
-        delete_entity,
+        # delete_entity,
         gazebo_launch,
+        controller_launch,
+        twist_relay_node,
         joystick_teleop_launch,
         amcl_launch,
         slam_launch,

@@ -1,0 +1,10 @@
+<library path = "bot3_frimware">
+    <class name = "bot3_frimware/BotOneInterface"
+            type="bot3_frimware::BotOneInterface"
+            base_class_type ="hardware_interface::SystemInterface">
+        <description>
+            bot one hardware interface 
+        </description>
+
+    </class>
+</library>

@@ -6,14 +6,14 @@ twist_mux:
         timeout: 0.5
         priority: 180
       keyboard:
-        topic: key_vel
+        topic: /key_vel
         timeout: 0.5
         priority: 90
       velocity_smoother:
-        topic: cmd_vel_smoothed
+        topic: /cmd_vel_mux_smoothed
         timeout: 0.5
         priority: 120
       behaviour_server:
-        topic: cmd_vel_behaviour
+        topic: /cmd_vel_behaviour
         timeout: 0.5
         priority: 120
