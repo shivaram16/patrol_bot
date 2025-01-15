@@ -60,11 +60,13 @@ def generate_launch_description():
                        'waypoint_follower',
                        'velocity_smoother']
     
-    configured_params = RewrittenYaml(
-        source_file=params_file,
-        root_key="",
-        param_rewrites=param_substitutions,
-        convert_types=True
+
+    configured_params = ParameterFile(
+        RewrittenYaml(
+            source_file=params_file,
+            param_rewrites=param_substitutions,
+            convert_types=True),
+            allow_substs= True
     )
 
 
@@ -111,7 +113,7 @@ def generate_launch_description():
         respawn_delay=2.0,
         parameters=[configured_params],
         arguments=['--ros-args', '--log-level', log_level],
-        remappings=remappings + [("cmd_vel","cmd_vel_behaviour")]
+        remappings=remappings + [('cmd_vel' , 'cmd_vel_behaviour')]
     )
 
     bt_navigator = Node(
@@ -148,7 +150,7 @@ def generate_launch_description():
         parameters=[configured_params],
         arguments=['--ros-args', '--log-level', log_level],
         remappings=remappings +
-                [('cmd_vel', 'cmd_vel_nav')]
+                [('cmd_vel', 'cmd_vel_nav'), ('cmd_vel_smoothed', 'cmd_vel_mux_smoothed')]
     )
 
 

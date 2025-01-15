@@ -1,68 +1,90 @@
-from launch import LaunchDescription
-from launch_ros.actions import Node
-from launch.actions import DeclareLaunchArgument,SetEnvironmentVariable,IncludeLaunchDescription
 import os
 from os import pathsep
 from ament_index_python.packages import get_package_share_directory, get_package_prefix
-from launch_ros.parameter_descriptions import ParameterValue
-from launch.substitutions import Command , LaunchConfiguration
+
+from launch import LaunchDescription
+from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, SetEnvironmentVariable
+from launch.substitutions import Command, LaunchConfiguration, PathJoinSubstitution,PythonExpression
 from launch.launch_description_sources import PythonLaunchDescriptionSource
-from scripts import GazeboRosPaths
+
+from launch_ros.actions import Node
+from launch_ros.parameter_descriptions import ParameterValue
+from pathlib import Path
+
 
 def generate_launch_description():
      
-    bot3_description = get_package_share_directory("descriptions_package")
-    bot3_description_prefix = get_package_prefix("descriptions_package")
-
-    model_path = os.path.join(bot3_description,"models")
-    model_path += pathsep + os.path.join(bot3_description_prefix,"share")
+    bot3_description_dir = get_package_share_directory("descriptions_package")
+    ros_distro = os.environ["ROS_DISTRO"]
+    is_ignition = "True" if ros_distro =="humble" else "False"
     
-    env_variable = SetEnvironmentVariable("GAZEBO_MODEL_PATH",model_path)
-    
-
     model_arg = DeclareLaunchArgument(
         name = "patrol_bot",
-        default_value= os.path.join(bot3_description,"urdf","bot3.urdf.xacro"),
+        default_value= os.path.join(bot3_description_dir,"urdf","bot3.urdf.xacro"),
         description= "complete path for the robot's urdf file"
     )
-    world_arg = DeclareLaunchArgument(
-        name="world",
-        default_value=os.path.join(get_package_share_directory("descriptions_package"), "worlds", "small_house.world"),
-        description="Path to the custom world file"
+
+    world_name_arg = DeclareLaunchArgument(
+        name="world_name",
+        default_value="empty"
     )
 
-    robot_description = ParameterValue(Command(["xacro ", LaunchConfiguration("patrol_bot")]),value_type= str)
+    world_path = PathJoinSubstitution([
+        bot3_description_dir,"worlds",PythonExpression(expression=["'" , LaunchConfiguration("world_name"), "'","+ '.world'"])
+    ])
+
+    robot_description = ParameterValue(Command([
+        "xacro ", 
+        LaunchConfiguration("patrol_bot"),
+        " is_ignition:=" , is_ignition]),value_type= str)
 
     robot_state_publisher = Node(
        package = "robot_state_publisher",
        executable = "robot_state_publisher",
-       output="both",
        parameters =  [{"robot_description" : robot_description},{"use_sim_time": True}]
     )
 
+    model_path = str(Path(bot3_description_dir).parent.resolve())
+    model_path += pathsep + os.path.join(bot3_description_dir, "models")
 
-    start_gazebo_server = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(os.path.join(
-            get_package_share_directory("gazebo_ros"), "launch", "gzserver.launch.py")),
-        launch_arguments={"world": LaunchConfiguration("world")}.items()
+    gazebo_resource_path = SetEnvironmentVariable(
+        "GZ_SIM_RESOURCE_PATH", model_path
     )
-    start_gazebo_client= IncludeLaunchDescription(PythonLaunchDescriptionSource(os.path.join(
-        get_package_share_directory("gazebo_ros"),"launch","gzclient.launch.py"
-    )))    
 
-    spwan_robot = Node(
-        package = "gazebo_ros",
-        executable = "spawn_entity.py",
-        arguments=["-entity","patrol_bot","-topic","robot_description"],
+    gazebo = IncludeLaunchDescription(PythonLaunchDescriptionSource([
+        os.path.join(get_package_share_directory("ros_gz_sim"), "launch"),"/gz_sim.launch.py"]),
+        launch_arguments={           
+            "gz_args": PythonExpression(["'" , world_path, " -v 4 -r'"])
+            }.items()
+        )
+
+    gz_spawn_entity = Node(
+        package = "ros_gz_sim",
+        executable = "create",
+        arguments=["-topic","robot_description",
+                   "-name", "patrol_bot"],
         output = "screen"
     )
 
+    gz_ros2_bridge = Node(
+        package="ros_gz_bridge",
+        executable="parameter_bridge",
+        arguments=[
+            "clock@rosgraph_msgs/msg/Clock[ignition.msg.Clock",
+            "/imu@sensor_msgs/msg/Imu[gz.msgs.IMU",
+            "/scan@sensor_msgs/msg/LaserScan[gz.msgs.LaserScan"
+        ],
+        remappings=[
+            ('/imu', '/imu/out')
+        ]
+    )
+
     return LaunchDescription([
-        env_variable,
         model_arg,
-        world_arg,
+        world_name_arg,
         robot_state_publisher,
-        start_gazebo_server,
-        start_gazebo_client,
-        spwan_robot       
+        gazebo_resource_path,
+        gazebo,
+        gz_spawn_entity,
+        gz_ros2_bridge
      ])

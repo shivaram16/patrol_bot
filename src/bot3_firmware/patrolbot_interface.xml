@@ -1,0 +1,9 @@
+<library path = "bot3_firmware">
+    <class name = "bot3_firmware/PatrolbotInterface"
+            type="bot3_firmware::PatrolbotInterface"
+            base_class_type ="hardware_interface::SystemInterface">
+        <description>
+            bot three hardware interface 
+        </description>
+    </class>
+</library>

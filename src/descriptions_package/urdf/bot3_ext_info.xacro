@@ -35,67 +35,138 @@
     </transmission>
 
     <gazebo reference = "front_left_wheel_link">
-        <mu1>1000000000000.0</mu1>
-        <mu2>1000000000000.0</mu2>
+        <mu>1.0</mu>
+        <mu2>0.25</mu2>
         <slip1>0.035</slip1>
         <slip2>0</slip2>
-        <fdir1>0 1 0</fdir1>
+        <fdir1>0 0 1</fdir1>
 
     </gazebo>
 
     <gazebo reference = "front_right_wheel_link">
-        <mu1>1000000000000.0</mu1>
-        <mu2>1000000000000.0</mu2>
+        <mu>1.0</mu>
+        <mu2>0.25</mu2>
         <slip1>0.035</slip1>
         <slip2>0</slip2>
-        <fdir1>0 1 0</fdir1>
+        <fdir1>0 0 1</fdir1>
 
     </gazebo>
 
     <gazebo reference = "rear_left_wheel_link">
-        <mu1>1000000000000.0</mu1>
-        <mu2>1000000000000.0</mu2>
+        <mu>1.0</mu>
+        <mu2>0.25</mu2>
         <slip1>0.035</slip1>
         <slip2>0</slip2>
-        <fdir1>0 1 0</fdir1>
+        <fdir1>0 0 1</fdir1>
 
     </gazebo>
 
     <gazebo reference = "rear_right_wheel_link">
-        <mu1>1000000000000.0</mu1>
-        <mu2>1000000000000.0</mu2>
+        <mu>1.0</mu>
+        <mu2>0.25</mu2>
         <slip1>0.035</slip1>
         <slip2>0</slip2>
-        <fdir1>0 1 0</fdir1>
+        <fdir1>0 0 1</fdir1>
 
     </gazebo>
 
-    <!-- <gazebo>
-        <plugin filename = "libgazebo_ros2_control.so" name = "gazebo_ros2_control">
-            <robot_param>robot_description</robot_param>
-            <robot_param_node>robot_state_publisher</robot_param_node>
-            <parameters>$(find bot3_controllers)/config/bot3_controller.yaml</parameters>
-        </plugin>
+    <gazebo>
+        <xacro:if value="$(arg is_ignition)">
+            <plugin filename="ign_ros2_control-system" name="ign_ros2_control::IgnitionROS2ControlPlugin">
+                <parameters>$(find bot3_controllers)/config/bot3_controller.yaml</parameters>
+            </plugin>
+            <!-- <plugin filename="ignition-gazebo-imu-system" name= "ignition::gazebo::systems::Imu">
+            </plugin> -->
+
+            <plugin filename="ignition-gazebo-sensors-system" name="ignition::gazebo::systems::Sensors">
+                <render_engine>ogre2</render_engine>
+            </plugin>
+        
+        </xacro:if>
+
+        <xacro:unless value="$(arg is_ignition)">
+            <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+                <parameters>$(find bot3_controllers)/config/bot3_controller.yaml</parameters>
+            </plugin>
+            <!-- <plugin filename="gz-sim-imu-system" name="gz::sim::systems::Imu">
+            </plugin> -->
+            <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
+                <render_engine>ogre2</render_engine>
+            </plugin>
+        </xacro:unless>
+    </gazebo>
+    
+    <!-- <gazebo reference="imu_link">
+        <sensor name="imu" type="imu">
+            <always_on>true</always_on>
+            <update_rate>100</update_rate>
+            <gz_frame_id>imu_link</gz_frame_id>
+            <topic>imu</topic>
+            <imu>
+                <angular_velocity>
+                    <x>
+                        <noise type ="gaussian">
+                            <mean>0.0</mean>
+                            <stddev>2e-4</stddev>
+                        </noise>
+                    </x>
+                    <y>
+                        <noise type ="gaussian">
+                            <mean>0.0</mean>
+                            <stddev>2e-4</stddev>
+                        </noise>
+                    </y>
+                    <z>
+                        <noise type ="gaussian">
+                            <mean>0.0</mean>
+                            <stddev>2e-4</stddev>
+                        </noise>                    
+                    </z>
+                </angular_velocity>
+                <linear_accleration>
+                    <x>
+                        <noise type ="gaussian">
+                            <mean>0.0</mean>
+                            <stddev>1.7e-2</stddev>
+                        </noise>
+                    </x>
+                    <y>
+                        <noise type ="gaussian">
+                            <mean>0.0</mean>
+                            <stddev>1.7e-2</stddev>
+                        </noise>
+                    </y>
+                    <z>
+                        <noise type ="gaussian">
+                            <mean>0.0</mean>
+                            <stddev>1.7e-2</stddev>
+                        </noise>                    
+                    </z>
+                </linear_accleration>
+            </imu>
+        </sensor>
     </gazebo> -->
 
-    <gazebo reference="lidar_sensor">
-        <sensor name="rplidar" type ="ray">
+    <gazebo reference="lidar_sensor_link">
+        <sensor name ="lidar" type="gpu_ray">
             <always_on>true</always_on>
             <visualize>true</visualize>
-            <update_rate>10</update_rate>
+            <topic>scan</topic>
+            <update_rate>5</update_rate>
+            <gz_frame_id>lidar_sensor_link</gz_frame_id>
             <ray>
                 <scan>
                     <horizontal>
                         <samples>360</samples>
                         <resolution>1.0</resolution>
-                        <min_angle>-3.14</min_angle>
-                        <max_angle>3.14</max_angle>
-                    </horizontal>
+                        <min_angle>0.0</min_angle>
+                        <max_angle>6.28</max_angle>
+                    </horizontal>   
                 </scan>
                 <range>
-                    <min>0.12</min>
-                    <max>12.0</max>
-                    <resolution>0.015</resolution>
+                    <min>0.20</min>
+                    <max>8.0</max>
+                    <resolution>0.02</resolution>
                 </range>
                 <noise>
                     <type>gaussian</type>
@@ -103,13 +174,7 @@
                     <stddev>0.01</stddev>
                 </noise>
             </ray>
-            <plugin name="scan" filename="libgazebo_ros_ray_sensor.so">
-                <ros>
-                    <remapping>~/out:=scan</remapping>
-                </ros>
-                <output_type>sensor_msgs/LaserScan</output_type>
-                <frame_name>lidar_sensor</frame_name>
-            </plugin>
         </sensor>
     </gazebo>
+
 </robot>
