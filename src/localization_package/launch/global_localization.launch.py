@@ -14,7 +14,7 @@ def generate_launch_description():
 
     map_name_arg = DeclareLaunchArgument(
         "map_name",
-        default_value="small_house"
+        default_value="jyo_house"
     )
     amcl_config_arg = DeclareLaunchArgument(
         "amcl_config",
@@ -25,7 +25,7 @@ def generate_launch_description():
     use_sim_time = LaunchConfiguration("use_sim_time")
     amcl_config = LaunchConfiguration("amcl_config")
     map_path = PathJoinSubstitution([
-        get_package_share_directory("mapping_pkg"),"maps",map_name,"map.yaml"
+        get_package_share_directory("mapping_pkg"),"maps",map_name,"jyo_house.yaml"
     ])
     
     lifecycle_nodes = ["map_server","amcl"]

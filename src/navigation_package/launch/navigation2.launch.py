@@ -2,7 +2,8 @@ from launch import LaunchDescription
 from launch.substitutions import LaunchConfiguration
 from ament_index_python.packages import get_package_share_directory
 from launch_ros.actions import Node
-from launch.actions import DeclareLaunchArgument,SetEnvironmentVariable
+from launch.actions import DeclareLaunchArgument,SetEnvironmentVariable,IncludeLaunchDescription,TimerAction,GroupAction
+from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.descriptions import ParameterFile
 from nav2_common.launch import RewrittenYaml
 import os
@@ -13,14 +14,13 @@ def generate_launch_description():
     stdout_linebuf_envvar = SetEnvironmentVariable(
         'RCUTILS_LOGGING_BUFFERED_STREAM', '1')
 
-    
     use_sim_time_arg = DeclareLaunchArgument(
         "use_sim_time",
         default_value="False"
     )
     respawn_arg = DeclareLaunchArgument(
         "use_respawn",
-        default_value="False",
+        default_value="True",
         description='Whether to respawn if a node crashes.'
     )
     autostart_cmd = DeclareLaunchArgument(
@@ -166,6 +166,14 @@ def generate_launch_description():
         ]
     )
 
+    amcl_node = TimerAction(
+        period = 2.0,
+        actions=[IncludeLaunchDescription(PythonLaunchDescriptionSource(
+                os.path.join(get_package_share_directory("localization_package"), "launch","global_localization.launch.py")
+            ))
+        ]
+    )
+
 
     return LaunchDescription([
         stdout_linebuf_envvar,
@@ -181,5 +189,6 @@ def generate_launch_description():
         bt_navigator,
         way_point_follower,
         velocity_smoother,
-        nav2_lifecycle_manager
+        nav2_lifecycle_manager,
+        amcl_node
         ])

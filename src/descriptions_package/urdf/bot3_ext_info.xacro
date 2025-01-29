@@ -147,7 +147,7 @@
         </sensor>
     </gazebo> -->
 
-    <gazebo reference="lidar_sensor_link">
+    <gazebo reference="laser_frame">
         <sensor name ="lidar" type="gpu_ray">
             <always_on>true</always_on>
             <visualize>true</visualize>

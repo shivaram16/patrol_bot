@@ -27,18 +27,19 @@ diff_drive_controller:
     left_wheel_names: ['front_left_wheel_joint','rear_left_wheel_joint']
     right_wheel_names: ['front_right_wheel_joint','rear_right_wheel_joint']
     publish_rate: 50.0
-    pose_covariance_diagonal: [0.001, 0.001, 1.0e-3, 1.0e-3, 1.0e-3,  0.01]
-    twist_covariance_diagonal: [0.001, 0.001, 1.0e-3, 1.0e-3, 1.0e-3,  0.01]
+    pose_covariance_diagonal: [0.001, 0.001, 1.0e-3, 1.0e-3, 1.0e-3,  0.05]
+    twist_covariance_diagonal: [0.001, 0.001, 1.0e-3, 1.0e-3, 1.0e-3,  0.1]
 
-    wheel_radius: 0.03008
-    wheel_separation: 0.2185
+
+    wheel_radius: 0.06500
+    wheel_separation: 0.4300
     left_wheel_radius_multiplier: 1.0
     right_wheel_radius_multiplier: 1.0
-    wheel_separation_multiplier: 1.0
+    wheel_separation_multiplier: 3.0
 
     cmd_vel_timeout: 1000.0
     base_frame_id: base_footprint
-    publish_limited_velocity: true
+    publish_limited_velocity: false
     publish_wheel_data: true
     enable_odom_tf: true
 
